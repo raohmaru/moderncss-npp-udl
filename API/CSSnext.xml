@@ -1,0 +1,1220 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<NotepadPlus>
+	<!-- Created by raohmaru, see https://github.com/raohmaru/msescript-notepad-udl for latest version-->
+	<AutoComplete>
+		<!--
+		Environment specifies how the language should be interpreted. ignoreCase makes autocomplete
+		ignore any casing, start and stopFunc specify what chars a function starts and stops with.
+		param specifies parameter separator and terminal can be used to specify a character that stops
+		any function. Using the same character for different functions results in undefined behaviour.
+		
+		05/11/2009
+		The basic word character are : A-Z a-z 0-9 and '_' 
+		If your function name contains other characters,
+		add your characters in "additionalWordChar" attribute (without separator)
+		in order to make calltip hint work
+		-->
+		<Environment ignoreCase="yes" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+		<!--
+		The following items should be alphabetically ordered.
+		func="yes" means the keyword should be treated as a fuction, and thus can be used in the parameter
+		calltip system. If this is the case, the retVal attribute specifies the return value/type. Any
+		following Param tag specifies a parameter, they must be in order. The name attributes specifies
+		the parameter name.
+		-->
+		<KeyWord name="absolute" />
+		<KeyWord name="active" />
+		<KeyWord name="additive-symbols" />
+		<KeyWord name="after" />
+		<KeyWord name="alias" />
+		<KeyWord name="align-content" />
+		<KeyWord name="align-items" />
+		<KeyWord name="align-self" />
+		<KeyWord name="alignment-baseline" />
+		<KeyWord name="all" />
+		<KeyWord name="all-petite-caps" />
+		<KeyWord name="all-scroll" />
+		<KeyWord name="all-small-caps" />
+		<KeyWord name="allow-end" />
+		<KeyWord name="alpha" />
+		<KeyWord name="alternate" />
+		<KeyWord name="alternate-reverse" />
+		<KeyWord name="always" />
+		<KeyWord name="animation" />
+		<KeyWord name="animation-delay" />
+		<KeyWord name="animation-direction" />
+		<KeyWord name="animation-duration" />
+		<KeyWord name="animation-fill-mode" />
+		<KeyWord name="animation-iteration-count" />
+		<KeyWord name="animation-name" />
+		<KeyWord name="animation-play-state" />
+		<KeyWord name="animation-timing-function" />
+		<KeyWord name="annotation()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="any-hover" />
+		<KeyWord name="any-link" />
+		<KeyWord name="any-pointer" />
+		<KeyWord name="appearance" />
+		<KeyWord name="aspect-ratio" />
+		<KeyWord name="attr()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="auto" />
+		<KeyWord name="avoid" />
+		<KeyWord name="avoid-column" />
+		<KeyWord name="avoid-page" />
+		<KeyWord name="azimuth" />
+		<KeyWord name="backdrop" />
+		<KeyWord name="backface-visibility" />
+		<KeyWord name="background" />
+		<KeyWord name="background-attachment" />
+		<KeyWord name="background-blend-mode" />
+		<KeyWord name="background-clip" />
+		<KeyWord name="background-color" />
+		<KeyWord name="background-image" />
+		<KeyWord name="background-origin" />
+		<KeyWord name="background-position" />
+		<KeyWord name="background-repeat" />
+		<KeyWord name="background-size" />
+		<KeyWord name="backwards" />
+		<KeyWord name="balance" />
+		<KeyWord name="baseline" />
+		<KeyWord name="baseline-shift" />
+		<KeyWord name="before" />
+		<KeyWord name="below" />
+		<KeyWord name="bidi-override" />
+		<KeyWord name="blank" />
+		<KeyWord name="blink" />
+		<KeyWord name="block" />
+		<KeyWord name="block-size" />
+		<KeyWord name="blur()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bold" />
+		<KeyWord name="bolder" />
+		<KeyWord name="bookmark-label" />
+		<KeyWord name="bookmark-level" />
+		<KeyWord name="bookmark-state" />
+		<KeyWord name="border" />
+		<KeyWord name="border-block-end" />
+		<KeyWord name="border-block-end-color" />
+		<KeyWord name="border-block-end-style" />
+		<KeyWord name="border-block-end-width" />
+		<KeyWord name="border-block-start" />
+		<KeyWord name="border-block-start-color" />
+		<KeyWord name="border-block-start-style" />
+		<KeyWord name="border-block-start-width" />
+		<KeyWord name="border-bottom" />
+		<KeyWord name="border-bottom-color" />
+		<KeyWord name="border-bottom-left-radius" />
+		<KeyWord name="border-bottom-right-radius" />
+		<KeyWord name="border-bottom-style" />
+		<KeyWord name="border-bottom-width" />
+		<KeyWord name="border-boundary" />
+		<KeyWord name="border-box" />
+		<KeyWord name="border-collapse" />
+		<KeyWord name="border-color" />
+		<KeyWord name="border-image" />
+		<KeyWord name="border-image-outset" />
+		<KeyWord name="border-image-repeat" />
+		<KeyWord name="border-image-slice" />
+		<KeyWord name="border-image-source" />
+		<KeyWord name="border-image-width" />
+		<KeyWord name="border-inline-end" />
+		<KeyWord name="border-inline-end-color" />
+		<KeyWord name="border-inline-end-style" />
+		<KeyWord name="border-inline-end-width" />
+		<KeyWord name="border-inline-start" />
+		<KeyWord name="border-inline-start-color" />
+		<KeyWord name="border-inline-start-style" />
+		<KeyWord name="border-inline-start-width" />
+		<KeyWord name="border-left" />
+		<KeyWord name="border-left-color" />
+		<KeyWord name="border-left-style" />
+		<KeyWord name="border-left-width" />
+		<KeyWord name="border-radius" />
+		<KeyWord name="border-right" />
+		<KeyWord name="border-right-color" />
+		<KeyWord name="border-right-style" />
+		<KeyWord name="border-right-width" />
+		<KeyWord name="border-spacing" />
+		<KeyWord name="border-style" />
+		<KeyWord name="border-top" />
+		<KeyWord name="border-top-color" />
+		<KeyWord name="border-top-left-radius" />
+		<KeyWord name="border-top-right-radius" />
+		<KeyWord name="border-top-style" />
+		<KeyWord name="border-top-width" />
+		<KeyWord name="border-width" />
+		<KeyWord name="both" />
+		<KeyWord name="bottom" />
+		<KeyWord name="box-decoration" />
+		<KeyWord name="box-decoration-break" />
+		<KeyWord name="box-shadow" />
+		<KeyWord name="box-sizing" />
+		<KeyWord name="box-snap" />
+		<KeyWord name="break-after" />
+		<KeyWord name="break-all" />
+		<KeyWord name="break-before" />
+		<KeyWord name="break-inside" />
+		<KeyWord name="break-word" />
+		<KeyWord name="brightness()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="calc()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="capitalize" />
+		<KeyWord name="caption-side" />
+		<KeyWord name="caret" />
+		<KeyWord name="caret-animation" />
+		<KeyWord name="caret-color" />
+		<KeyWord name="caret-shape" />
+		<KeyWord name="cell" />
+		<KeyWord name="center" />
+		<KeyWord name="ch" />
+		<KeyWord name="chains" />
+		<KeyWord name="character-variant()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="charset" />
+		<KeyWord name="checked" />
+		<KeyWord name="circle" />
+		<KeyWord name="circle()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="clear" />
+		<KeyWord name="clip" />
+		<KeyWord name="clip-path" />
+		<KeyWord name="clip-rule" />
+		<KeyWord name="clone" />
+		<KeyWord name="close-quote" />
+		<KeyWord name="cm" />
+		<KeyWord name="col-resize" />
+		<KeyWord name="collapse" />
+		<KeyWord name="color" />
+		<KeyWord name="color-adjust" />
+		<KeyWord name="color-burn" />
+		<KeyWord name="color-dodge" />
+		<KeyWord name="color-gamut" />
+		<KeyWord name="color-index" />
+		<KeyWord name="color-interpolation-filters" />
+		<KeyWord name="column" />
+		<KeyWord name="column-count" />
+		<KeyWord name="column-fill" />
+		<KeyWord name="column-gap" />
+		<KeyWord name="column-reverse" />
+		<KeyWord name="column-rule" />
+		<KeyWord name="column-rule-color" />
+		<KeyWord name="column-rule-style" />
+		<KeyWord name="column-rule-width" />
+		<KeyWord name="column-span" />
+		<KeyWord name="column-width" />
+		<KeyWord name="columns" />
+		<KeyWord name="compact" />
+		<KeyWord name="condensed" />
+		<KeyWord name="contain" />
+		<KeyWord name="container" />
+		<KeyWord name="content" />
+		<KeyWord name="content-box" />
+		<KeyWord name="contents" />
+		<KeyWord name="context-menu" />
+		<KeyWord name="contrast()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="copy" />
+		<KeyWord name="counter-increment" />
+		<KeyWord name="counter-reset" />
+		<KeyWord name="counter-set" />
+		<KeyWord name="counter-style" />
+		<KeyWord name="cover" />
+		<KeyWord name="crisp-edges" />
+		<KeyWord name="cross-fade()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="crosshair" />
+		<KeyWord name="cubic-bezier()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cue" />
+		<KeyWord name="cue-after" />
+		<KeyWord name="cue-before" />
+		<KeyWord name="current" />
+		<KeyWord name="cursor" />
+		<KeyWord name="darken" />
+		<KeyWord name="dashed" />
+		<KeyWord name="decimal" />
+		<KeyWord name="decimal-leading-zero" />
+		<KeyWord name="default" />
+		<KeyWord name="deg" />
+		<KeyWord name="descendants" />
+		<KeyWord name="device-aspect-ratio" />
+		<KeyWord name="device-height" />
+		<KeyWord name="device-radius" />
+		<KeyWord name="device-width" />
+		<KeyWord name="difference" />
+		<KeyWord name="digits" />
+		<KeyWord name="dir" />
+		<KeyWord name="direction" />
+		<KeyWord name="disabled" />
+		<KeyWord name="disc" />
+		<KeyWord name="display" />
+		<KeyWord name="distribute" />
+		<KeyWord name="document" />
+		<KeyWord name="dominant-baseline" />
+		<KeyWord name="dot" />
+		<KeyWord name="dotted" />
+		<KeyWord name="double" />
+		<KeyWord name="double-circle" />
+		<KeyWord name="dpcm" />
+		<KeyWord name="dpi" />
+		<KeyWord name="dppx" />
+		<KeyWord name="drop" />
+		<KeyWord name="drop-shadow()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="e-resize" />
+		<KeyWord name="each-line" />
+		<KeyWord name="ease" />
+		<KeyWord name="ease-in" />
+		<KeyWord name="ease-in-out" />
+		<KeyWord name="ease-out" />
+		<KeyWord name="edges" />
+		<KeyWord name="element()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="elevation" />
+		<KeyWord name="ellipse()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ellipsis" />
+		<KeyWord name="em" />
+		<KeyWord name="embed" />
+		<KeyWord name="empty" />
+		<KeyWord name="empty-cells" />
+		<KeyWord name="enabled" />
+		<KeyWord name="end" />
+		<KeyWord name="ew-resize" />
+		<KeyWord name="ex" />
+		<KeyWord name="exclusion" />
+		<KeyWord name="expanded" />
+		<KeyWord name="extra-condensed" />
+		<KeyWord name="extra-expanded" />
+		<KeyWord name="fallback" />
+		<KeyWord name="fill" />
+		<KeyWord name="fill-box" />
+		<KeyWord name="filled" />
+		<KeyWord name="filter" />
+		<KeyWord name="first" />
+		<KeyWord name="first-child" />
+		<KeyWord name="first-letter" />
+		<KeyWord name="first-line" />
+		<KeyWord name="first-of-type" />
+		<KeyWord name="fit-content()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fixed" />
+		<KeyWord name="flat" />
+		<KeyWord name="flex" />
+		<KeyWord name="flex-basis" />
+		<KeyWord name="flex-direction" />
+		<KeyWord name="flex-end" />
+		<KeyWord name="flex-flow" />
+		<KeyWord name="flex-grow" />
+		<KeyWord name="flex-shrink" />
+		<KeyWord name="flex-start" />
+		<KeyWord name="flex-wrap" />
+		<KeyWord name="flip" />
+		<KeyWord name="float" />
+		<KeyWord name="float-defer" />
+		<KeyWord name="float-offset" />
+		<KeyWord name="float-reference" />
+		<KeyWord name="flood-color" />
+		<KeyWord name="flood-opacity" />
+		<KeyWord name="flow" />
+		<KeyWord name="flow-from" />
+		<KeyWord name="flow-into" />
+		<KeyWord name="focus" />
+		<KeyWord name="focus-ring" />
+		<KeyWord name="font" />
+		<KeyWord name="font-face" />
+		<KeyWord name="font-family" />
+		<KeyWord name="font-feature-settings" />
+		<KeyWord name="font-feature-values" />
+		<KeyWord name="font-kerning" />
+		<KeyWord name="font-language-override" />
+		<KeyWord name="font-size" />
+		<KeyWord name="font-size-adjust" />
+		<KeyWord name="font-stretch" />
+		<KeyWord name="font-style" />
+		<KeyWord name="font-synthesis" />
+		<KeyWord name="font-variant" />
+		<KeyWord name="font-variant-alternates" />
+		<KeyWord name="font-variant-caps" />
+		<KeyWord name="font-variant-east-asian" />
+		<KeyWord name="font-variant-ligatures" />
+		<KeyWord name="font-variant-numeric" />
+		<KeyWord name="font-variant-position" />
+		<KeyWord name="font-weight" />
+		<KeyWord name="footnote-display" />
+		<KeyWord name="footnote-policy" />
+		<KeyWord name="force-end" />
+		<KeyWord name="format()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="forwards" />
+		<KeyWord name="fr" />
+		<KeyWord name="from-image" />
+		<KeyWord name="full-width" />
+		<KeyWord name="future" />
+		<KeyWord name="geometricPrecision" />
+		<KeyWord name="georgian" />
+		<KeyWord name="glyph-orientation-vertical" />
+		<KeyWord name="grad" />
+		<KeyWord name="grammar-error" />
+		<KeyWord name="grayscale()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="grid" />
+		<KeyWord name="grid-area" />
+		<KeyWord name="grid-auto-columns" />
+		<KeyWord name="grid-auto-flow" />
+		<KeyWord name="grid-auto-rows" />
+		<KeyWord name="grid-column" />
+		<KeyWord name="grid-column-end" />
+		<KeyWord name="grid-column-gap" />
+		<KeyWord name="grid-column-start" />
+		<KeyWord name="grid-gap" />
+		<KeyWord name="grid-row" />
+		<KeyWord name="grid-row-end" />
+		<KeyWord name="grid-row-gap" />
+		<KeyWord name="grid-row-start" />
+		<KeyWord name="grid-template" />
+		<KeyWord name="grid-template-areas" />
+		<KeyWord name="grid-template-columns" />
+		<KeyWord name="grid-template-rows" />
+		<KeyWord name="groove" />
+		<KeyWord name="hanging" />
+		<KeyWord name="hanging each-line" />
+		<KeyWord name="hanging-punctuation" />
+		<KeyWord name="hard-light" />
+		<KeyWord name="has" />
+		<KeyWord name="height" />
+		<KeyWord name="help" />
+		<KeyWord name="hidden" />
+		<KeyWord name="hide" />
+		<KeyWord name="horizontal" />
+		<KeyWord name="horizontal-tb" />
+		<KeyWord name="hover" />
+		<KeyWord name="hsl()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hsla()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hue" />
+		<KeyWord name="hue-rotate()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hyphenate-character" />
+		<KeyWord name="hyphenate-limit-chars" />
+		<KeyWord name="hyphenate-limit-last" />
+		<KeyWord name="hyphenate-limit-lines" />
+		<KeyWord name="hyphenate-limit-zone" />
+		<KeyWord name="hyphens" />
+		<KeyWord name="hz" />
+		<KeyWord name="icon" />
+		<KeyWord name="image()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="image-orientation" />
+		<KeyWord name="image-rendering" />
+		<KeyWord name="image-resolution" />
+		<KeyWord name="image-set()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ime-mode" />
+		<KeyWord name="import" />
+		<KeyWord name="in" />
+		<KeyWord name="in-range" />
+		<KeyWord name="indeterminate" />
+		<KeyWord name="infinite" />
+		<KeyWord name="inherit" />
+		<KeyWord name="initial" />
+		<KeyWord name="initial-letter" />
+		<KeyWord name="initial-letter-align" />
+		<KeyWord name="initial-letter-wrap" />
+		<KeyWord name="ink" />
+		<KeyWord name="inline" />
+		<KeyWord name="inline-block" />
+		<KeyWord name="inline-flex" />
+		<KeyWord name="inline-size" />
+		<KeyWord name="inline-table" />
+		<KeyWord name="inset" />
+		<KeyWord name="inset()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="inside" />
+		<KeyWord name="inter-word" />
+		<KeyWord name="invalid" />
+		<KeyWord name="invert" />
+		<KeyWord name="invert()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isolate" />
+		<KeyWord name="isolation" />
+		<KeyWord name="italic" />
+		<KeyWord name="justify" />
+		<KeyWord name="justify-content" />
+		<KeyWord name="justify-items" />
+		<KeyWord name="justify-self" />
+		<KeyWord name="keep-all" />
+		<KeyWord name="keyframes" />
+		<KeyWord name="khz" />
+		<KeyWord name="lang" />
+		<KeyWord name="large" />
+		<KeyWord name="larger" />
+		<KeyWord name="last" />
+		<KeyWord name="last-child" />
+		<KeyWord name="last-of-type" />
+		<KeyWord name="left" />
+		<KeyWord name="letter-spacing" />
+		<KeyWord name="lighten" />
+		<KeyWord name="lighter" />
+		<KeyWord name="lighting-color" />
+		<KeyWord name="line-break" />
+		<KeyWord name="line-grid" />
+		<KeyWord name="line-height" />
+		<KeyWord name="line-snap" />
+		<KeyWord name="line-through" />
+		<KeyWord name="linear" />
+		<KeyWord name="linear-gradient()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="link" />
+		<KeyWord name="list-item" />
+		<KeyWord name="list-style" />
+		<KeyWord name="list-style-image" />
+		<KeyWord name="list-style-position" />
+		<KeyWord name="list-style-type" />
+		<KeyWord name="local" />
+		<KeyWord name="local()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="loose" />
+		<KeyWord name="lower-alpha" />
+		<KeyWord name="lower-greek" />
+		<KeyWord name="lower-latin" />
+		<KeyWord name="lower-roman" />
+		<KeyWord name="lowercase" />
+		<KeyWord name="ltr" />
+		<KeyWord name="luminance" />
+		<KeyWord name="luminosity" />
+		<KeyWord name="mandatory" />
+		<KeyWord name="manipulation" />
+		<KeyWord name="manual" />
+		<KeyWord name="margin" />
+		<KeyWord name="margin-block-end" />
+		<KeyWord name="margin-block-start" />
+		<KeyWord name="margin-bottom" />
+		<KeyWord name="margin-box" />
+		<KeyWord name="margin-inline-end" />
+		<KeyWord name="margin-inline-start" />
+		<KeyWord name="margin-left" />
+		<KeyWord name="margin-right" />
+		<KeyWord name="margin-top" />
+		<KeyWord name="marker" />
+		<KeyWord name="marker-end" />
+		<KeyWord name="marker-knockout-left" />
+		<KeyWord name="marker-knockout-right" />
+		<KeyWord name="marker-mid" />
+		<KeyWord name="marker-pattern" />
+		<KeyWord name="marker-segment" />
+		<KeyWord name="marker-side" />
+		<KeyWord name="marker-start" />
+		<KeyWord name="marquee-direction" />
+		<KeyWord name="marquee-loop" />
+		<KeyWord name="marquee-speed" />
+		<KeyWord name="marquee-style" />
+		<KeyWord name="mask" />
+		<KeyWord name="mask-border" />
+		<KeyWord name="mask-border-mode" />
+		<KeyWord name="mask-border-outset" />
+		<KeyWord name="mask-border-repeat" />
+		<KeyWord name="mask-border-slice" />
+		<KeyWord name="mask-border-source" />
+		<KeyWord name="mask-border-width" />
+		<KeyWord name="mask-clip" />
+		<KeyWord name="mask-composite" />
+		<KeyWord name="mask-image" />
+		<KeyWord name="mask-mode" />
+		<KeyWord name="mask-origin" />
+		<KeyWord name="mask-position" />
+		<KeyWord name="mask-repeat" />
+		<KeyWord name="mask-size" />
+		<KeyWord name="mask-type" />
+		<KeyWord name="match-parent" />
+		<KeyWord name="matches" />
+		<KeyWord name="matrix()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matrix3d()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="max-block-size" />
+		<KeyWord name="max-height" />
+		<KeyWord name="max-inline-size" />
+		<KeyWord name="max-lines" />
+		<KeyWord name="max-width" />
+		<KeyWord name="max-zoom" />
+		<KeyWord name="media" />
+		<KeyWord name="medium" />
+		<KeyWord name="middle" />
+		<KeyWord name="min-block-size" />
+		<KeyWord name="min-height" />
+		<KeyWord name="min-inline-size" />
+		<KeyWord name="min-width" />
+		<KeyWord name="min-zoom" />
+		<KeyWord name="minmax()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mix-blend-mode" />
+		<KeyWord name="mixed" />
+		<KeyWord name="mm" />
+		<KeyWord name="monochrome" />
+		<KeyWord name="motion" />
+		<KeyWord name="motion-offset" />
+		<KeyWord name="motion-path" />
+		<KeyWord name="motion-rotation" />
+		<KeyWord name="move" />
+		<KeyWord name="ms" />
+		<KeyWord name="multiply" />
+		<KeyWord name="n-resize" />
+		<KeyWord name="namespace" />
+		<KeyWord name="nav-down" />
+		<KeyWord name="nav-left" />
+		<KeyWord name="nav-right" />
+		<KeyWord name="nav-up" />
+		<KeyWord name="ne-resize" />
+		<KeyWord name="negative" />
+		<KeyWord name="nesw-resize" />
+		<KeyWord name="no-close-quote" />
+		<KeyWord name="no-drop" />
+		<KeyWord name="no-open-quote" />
+		<KeyWord name="no-repeat" />
+		<KeyWord name="none" />
+		<KeyWord name="normal" />
+		<KeyWord name="not" />
+		<KeyWord name="not-allowed" />
+		<KeyWord name="nowrap" />
+		<KeyWord name="ns-resize" />
+		<KeyWord name="nth-child" />
+		<KeyWord name="nth-column" />
+		<KeyWord name="nth-last-child" />
+		<KeyWord name="nth-last-column" />
+		<KeyWord name="nth-last-of-type" />
+		<KeyWord name="nth-of-type" />
+		<KeyWord name="nw-resize" />
+		<KeyWord name="nwse-resize" />
+		<KeyWord name="object-fit" />
+		<KeyWord name="object-position" />
+		<KeyWord name="objects" />
+		<KeyWord name="oblique" />
+		<KeyWord name="offset-after" />
+		<KeyWord name="offset-before" />
+		<KeyWord name="offset-block-end" />
+		<KeyWord name="offset-block-start" />
+		<KeyWord name="offset-end" />
+		<KeyWord name="offset-inline-end" />
+		<KeyWord name="offset-inline-start" />
+		<KeyWord name="offset-start" />
+		<KeyWord name="only-child" />
+		<KeyWord name="only-of-type" />
+		<KeyWord name="opacity" />
+		<KeyWord name="opacity()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="open" />
+		<KeyWord name="open-quote" />
+		<KeyWord name="optimizeLegibility" />
+		<KeyWord name="optimizeSpeed" />
+		<KeyWord name="optional" />
+		<KeyWord name="order" />
+		<KeyWord name="orientation" />
+		<KeyWord name="ornaments()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="orphans" />
+		<KeyWord name="out-of-range" />
+		<KeyWord name="outline" />
+		<KeyWord name="outline-color" />
+		<KeyWord name="outline-offset" />
+		<KeyWord name="outline-style" />
+		<KeyWord name="outline-width" />
+		<KeyWord name="outset" />
+		<KeyWord name="outside" />
+		<KeyWord name="over" />
+		<KeyWord name="overflow" />
+		<KeyWord name="overflow-block" />
+		<KeyWord name="overflow-inline" />
+		<KeyWord name="overflow-style" />
+		<KeyWord name="overflow-wrap" />
+		<KeyWord name="overflow-x" />
+		<KeyWord name="overflow-y" />
+		<KeyWord name="overlay" />
+		<KeyWord name="overline" />
+		<KeyWord name="pad" />
+		<KeyWord name="padding" />
+		<KeyWord name="padding-block-end" />
+		<KeyWord name="padding-block-start" />
+		<KeyWord name="padding-bottom" />
+		<KeyWord name="padding-box" />
+		<KeyWord name="padding-inline-end" />
+		<KeyWord name="padding-inline-start" />
+		<KeyWord name="padding-left" />
+		<KeyWord name="padding-right" />
+		<KeyWord name="padding-top" />
+		<KeyWord name="page" />
+		<KeyWord name="page-break-after" />
+		<KeyWord name="page-break-before" />
+		<KeyWord name="page-break-inside" />
+		<KeyWord name="pan-down" />
+		<KeyWord name="pan-left" />
+		<KeyWord name="pan-right" />
+		<KeyWord name="pan-up" />
+		<KeyWord name="pan-x" />
+		<KeyWord name="pan-y" />
+		<KeyWord name="past" />
+		<KeyWord name="pause" />
+		<KeyWord name="pause-after" />
+		<KeyWord name="pause-before" />
+		<KeyWord name="paused" />
+		<KeyWord name="pc" />
+		<KeyWord name="perspective" />
+		<KeyWord name="perspective()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="perspective-origin" />
+		<KeyWord name="petite-caps" />
+		<KeyWord name="pitch" />
+		<KeyWord name="pitch-range" />
+		<KeyWord name="pixelated" />
+		<KeyWord name="placeholder" />
+		<KeyWord name="placeholder-shown" />
+		<KeyWord name="play-during" />
+		<KeyWord name="pointer" />
+		<KeyWord name="pointer-events" />
+		<KeyWord name="polygon()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="position" />
+		<KeyWord name="pre" />
+		<KeyWord name="pre-line" />
+		<KeyWord name="pre-wrap" />
+		<KeyWord name="prefix" />
+		<KeyWord name="presentation-level" />
+		<KeyWord name="preserve-3d" />
+		<KeyWord name="progress" />
+		<KeyWord name="proximity" />
+		<KeyWord name="pt" />
+		<KeyWord name="px" />
+		<KeyWord name="quotes" />
+		<KeyWord name="rad" />
+		<KeyWord name="radial-gradient()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="range" />
+		<KeyWord name="read-only" />
+		<KeyWord name="read-write" />
+		<KeyWord name="rect()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="region-fragment" />
+		<KeyWord name="relative" />
+		<KeyWord name="rem" />
+		<KeyWord name="repeat" />
+		<KeyWord name="repeat()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="repeat-x" />
+		<KeyWord name="repeat-y" />
+		<KeyWord name="repeating-linear-gradient()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="repeating-radial-gradient()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="required" />
+		<KeyWord name="resize" />
+		<KeyWord name="resolution" />
+		<KeyWord name="rest" />
+		<KeyWord name="rest-after" />
+		<KeyWord name="rest-before" />
+		<KeyWord name="reverse" />
+		<KeyWord name="revert" />
+		<KeyWord name="rgb()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rgba()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="richness" />
+		<KeyWord name="ridge" />
+		<KeyWord name="right" />
+		<KeyWord name="root" />
+		<KeyWord name="rotate()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rotate3d()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rotateX()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rotateY()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rotateZ()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rotation" />
+		<KeyWord name="rotation-point" />
+		<KeyWord name="round" />
+		<KeyWord name="row" />
+		<KeyWord name="row-resize" />
+		<KeyWord name="row-reverse" />
+		<KeyWord name="rtl" />
+		<KeyWord name="ruby-align" />
+		<KeyWord name="ruby-merge" />
+		<KeyWord name="ruby-position" />
+		<KeyWord name="run-in" />
+		<KeyWord name="running" />
+		<KeyWord name="s-resize" />
+		<KeyWord name="saturate()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="saturation" />
+		<KeyWord name="scale()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="scale-down" />
+		<KeyWord name="scale3d()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="scaleX()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="scaleY()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="scaleZ()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="scan" />
+		<KeyWord name="scope" />
+		<KeyWord name="screen" />
+		<KeyWord name="scripting" />
+		<KeyWord name="scroll" />
+		<KeyWord name="scroll-behavior" />
+		<KeyWord name="scroll-padding" />
+		<KeyWord name="scroll-padding-block" />
+		<KeyWord name="scroll-padding-block-end" />
+		<KeyWord name="scroll-padding-block-start" />
+		<KeyWord name="scroll-padding-bottom" />
+		<KeyWord name="scroll-padding-inline" />
+		<KeyWord name="scroll-padding-inline-end" />
+		<KeyWord name="scroll-padding-inline-start" />
+		<KeyWord name="scroll-padding-left" />
+		<KeyWord name="scroll-padding-right" />
+		<KeyWord name="scroll-padding-top" />
+		<KeyWord name="scroll-position" />
+		<KeyWord name="scroll-snap-align" />
+		<KeyWord name="scroll-snap-coordinate" />
+		<KeyWord name="scroll-snap-destination" />
+		<KeyWord name="scroll-snap-margin" />
+		<KeyWord name="scroll-snap-margin-block" />
+		<KeyWord name="scroll-snap-margin-block-end" />
+		<KeyWord name="scroll-snap-margin-block-start" />
+		<KeyWord name="scroll-snap-margin-bottom" />
+		<KeyWord name="scroll-snap-margin-inline" />
+		<KeyWord name="scroll-snap-margin-inline-end" />
+		<KeyWord name="scroll-snap-margin-inline-start" />
+		<KeyWord name="scroll-snap-margin-left" />
+		<KeyWord name="scroll-snap-margin-right" />
+		<KeyWord name="scroll-snap-margin-top" />
+		<KeyWord name="scroll-snap-stop" />
+		<KeyWord name="scroll-snap-type" />
+		<KeyWord name="se-resize" />
+		<KeyWord name="selection" />
+		<KeyWord name="semi-condensed" />
+		<KeyWord name="semi-expanded" />
+		<KeyWord name="separate" />
+		<KeyWord name="sepia()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sesame" />
+		<KeyWord name="shape-image-threshold" />
+		<KeyWord name="shape-inside" />
+		<KeyWord name="shape-margin" />
+		<KeyWord name="shape-outside" />
+		<KeyWord name="show" />
+		<KeyWord name="sideways" />
+		<KeyWord name="sideways-left" />
+		<KeyWord name="sideways-right" />
+		<KeyWord name="size" />
+		<KeyWord name="skew()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="skewX()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="skewY()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="slice" />
+		<KeyWord name="small" />
+		<KeyWord name="small-caps" />
+		<KeyWord name="smaller" />
+		<KeyWord name="smooth" />
+		<KeyWord name="snap" />
+		<KeyWord name="soft-light" />
+		<KeyWord name="solid" />
+		<KeyWord name="space" />
+		<KeyWord name="space-around" />
+		<KeyWord name="space-between" />
+		<KeyWord name="spaces" />
+		<KeyWord name="speak" />
+		<KeyWord name="speak-as" />
+		<KeyWord name="speak-header" />
+		<KeyWord name="speak-numeral" />
+		<KeyWord name="speak-punctuation" />
+		<KeyWord name="speech-rate" />
+		<KeyWord name="spelling-error" />
+		<KeyWord name="square" />
+		<KeyWord name="src" />
+		<KeyWord name="start" />
+		<KeyWord name="start end" />
+		<KeyWord name="static" />
+		<KeyWord name="step-end" />
+		<KeyWord name="step-start" />
+		<KeyWord name="steps()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sticky" />
+		<KeyWord name="stress" />
+		<KeyWord name="stretch" />
+		<KeyWord name="strict" />
+		<KeyWord name="string-set" />
+		<KeyWord name="stroke" />
+		<KeyWord name="stroke-alignment" />
+		<KeyWord name="stroke-box" />
+		<KeyWord name="stroke-dashadjust" />
+		<KeyWord name="stroke-dasharray" />
+		<KeyWord name="stroke-dashcorner" />
+		<KeyWord name="stroke-dashoffset" />
+		<KeyWord name="stroke-linecap" />
+		<KeyWord name="stroke-linejoin" />
+		<KeyWord name="stroke-miterlimit" />
+		<KeyWord name="stroke-opacity" />
+		<KeyWord name="stroke-width" />
+		<KeyWord name="style" />
+		<KeyWord name="styleset()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="stylistic()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sub" />
+		<KeyWord name="suffix" />
+		<KeyWord name="super" />
+		<KeyWord name="supports" />
+		<KeyWord name="sw-resize" />
+		<KeyWord name="swash()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="symbols" />
+		<KeyWord name="symbols()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="system" />
+		<KeyWord name="tab-size" />
+		<KeyWord name="table" />
+		<KeyWord name="table-caption" />
+		<KeyWord name="table-cell" />
+		<KeyWord name="table-column" />
+		<KeyWord name="table-column-group" />
+		<KeyWord name="table-footer-group" />
+		<KeyWord name="table-header-group" />
+		<KeyWord name="table-layout" />
+		<KeyWord name="table-row" />
+		<KeyWord name="table-row-group" />
+		<KeyWord name="target" />
+		<KeyWord name="text" />
+		<KeyWord name="text-align" />
+		<KeyWord name="text-align-last" />
+		<KeyWord name="text-bottom" />
+		<KeyWord name="text-combine-upright" />
+		<KeyWord name="text-decoration" />
+		<KeyWord name="text-decoration-color" />
+		<KeyWord name="text-decoration-line" />
+		<KeyWord name="text-decoration-skip" />
+		<KeyWord name="text-decoration-style" />
+		<KeyWord name="text-emphasis" />
+		<KeyWord name="text-emphasis-color" />
+		<KeyWord name="text-emphasis-position" />
+		<KeyWord name="text-emphasis-style" />
+		<KeyWord name="text-indent" />
+		<KeyWord name="text-justify" />
+		<KeyWord name="text-orientation" />
+		<KeyWord name="text-overflow" />
+		<KeyWord name="text-rendering" />
+		<KeyWord name="text-shadow" />
+		<KeyWord name="text-space-collapse" />
+		<KeyWord name="text-space-trim" />
+		<KeyWord name="text-spacing" />
+		<KeyWord name="text-top" />
+		<KeyWord name="text-transform" />
+		<KeyWord name="text-underline-position" />
+		<KeyWord name="text-wrap" />
+		<KeyWord name="thick" />
+		<KeyWord name="thin" />
+		<KeyWord name="titling-caps" />
+		<KeyWord name="top" />
+		<KeyWord name="top bottom" />
+		<KeyWord name="touch-action" />
+		<KeyWord name="transform" />
+		<KeyWord name="transform-box" />
+		<KeyWord name="transform-origin" />
+		<KeyWord name="transform-style" />
+		<KeyWord name="transition" />
+		<KeyWord name="transition-delay" />
+		<KeyWord name="transition-duration" />
+		<KeyWord name="transition-property" />
+		<KeyWord name="transition-timing-function" />
+		<KeyWord name="translate()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="translate3d()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="translateX()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="translateY()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="translateZ()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="transparent" />
+		<KeyWord name="triangle" />
+		<KeyWord name="turn" />
+		<KeyWord name="ultra-condensed" />
+		<KeyWord name="ultra-expanded" />
+		<KeyWord name="under" />
+		<KeyWord name="underline" />
+		<KeyWord name="unicase" />
+		<KeyWord name="unicode-bidi" />
+		<KeyWord name="unicode-range" />
+		<KeyWord name="unset" />
+		<KeyWord name="update" />
+		<KeyWord name="upper-alpha" />
+		<KeyWord name="upper-latin" />
+		<KeyWord name="upper-roman" />
+		<KeyWord name="uppercase" />
+		<KeyWord name="upright" />
+		<KeyWord name="url()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="use-glyph-orientation" />
+		<KeyWord name="user-error" />
+		<KeyWord name="user-select" />
+		<KeyWord name="user-zoom" />
+		<KeyWord name="valid" />
+		<KeyWord name="var()" func="yes">
+			<Overload retVal="">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		<KeyWord name="vertical" />
+		<KeyWord name="vertical-align" />
+		<KeyWord name="vertical-lr" />
+		<KeyWord name="vertical-rl" />
+		<KeyWord name="vertical-text" />
+		<KeyWord name="vh" />
+		<KeyWord name="view-box" />
+		<KeyWord name="viewport" />
+		<KeyWord name="visibility" />
+		<KeyWord name="visible" />
+		<KeyWord name="visited" />
+		<KeyWord name="vmax" />
+		<KeyWord name="vmin" />
+		<KeyWord name="voice-balance" />
+		<KeyWord name="voice-duration" />
+		<KeyWord name="voice-family" />
+		<KeyWord name="voice-pitch" />
+		<KeyWord name="voice-range" />
+		<KeyWord name="voice-rate" />
+		<KeyWord name="voice-stress" />
+		<KeyWord name="voice-volume" />
+		<KeyWord name="volume" />
+		<KeyWord name="vw" />
+		<KeyWord name="w-resize" />
+		<KeyWord name="wait" />
+		<KeyWord name="wavy" />
+		<KeyWord name="weight" />
+		<KeyWord name="white-space" />
+		<KeyWord name="widows" />
+		<KeyWord name="width" />
+		<KeyWord name="will-change" />
+		<KeyWord name="word-break" />
+		<KeyWord name="word-spacing" />
+		<KeyWord name="word-wrap" />
+		<KeyWord name="wrap" />
+		<KeyWord name="wrap-after" />
+		<KeyWord name="wrap-before" />
+		<KeyWord name="wrap-flow" />
+		<KeyWord name="wrap-inside" />
+		<KeyWord name="wrap-reverse" />
+		<KeyWord name="wrap-through" />
+		<KeyWord name="writing-mode" />
+		<KeyWord name="x-large" />
+		<KeyWord name="x-small" />
+		<KeyWord name="xx-large" />
+		<KeyWord name="xx-small" />
+		<KeyWord name="z-index" />
+		<KeyWord name="zoom-in" />
+		<KeyWord name="zoom-out" />
+	</AutoComplete>
+</NotepadPlus>

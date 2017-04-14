@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="CSSnext" ext="" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="yes" Keywords5="yes" Keywords6="yes" Keywords7="yes" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2">#</Keywords>
+            <Keywords name="Numbers, extras1">A B C D E F a b c d e f</Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1">% em ex ch rem vw vh vmin vmax cm mm q in pt pc px deg grad rad turn dpi dpcm dppx</Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">, : ; = ~ ^ $ | + * &lt; &gt; / ( )</Keywords>
+            <Keywords name="Operators2">- /</Keywords>
+            <Keywords name="Folders in code1, open">{</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">}</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open">/*</Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close">*/</Keywords>
+            <Keywords name="Keywords1">align-content align-items align-self alignment-baseline all animation animation-delay animation-direction animation-duration animation-fill-mode animation-iteration-count animation-name animation-play-state animation-timing-function appearance azimuth backface-visibility background background-attachment background-blend-mode background-clip background-color background-image background-origin background-position background-repeat background-size baseline-shift bookmark-label bookmark-level bookmark-state border border-bottom border-bottom-color border-bottom-left-radius border-bottom-right-radius border-bottom-style border-bottom-width border-boundary border-collapse border-color border-image border-image-outset border-image-repeat border-image-slice border-image-source border-image-width border-left border-left-color border-left-style border-left-width border-radius border-right border-right-color border-right-style border-right-width border-spacing border-style border-top border-top-color border-top-left-radius border-top-right-radius border-top-style border-top-width border-width bottom box-decoration-break box-shadow box-sizing box-snap break-after break-before break-inside caption-side caret caret-animation caret-color caret-shape chains clear clip clip-path clip-rule color color-adjust color-interpolation-filters column-count column-fill column-gap column-rule column-rule-color column-rule-style column-rule-width column-span column-width columns content counter-increment counter-reset counter-set cue cue-after cue-before cursor direction display dominant-baseline elevation empty-cells filter flex flex-basis flex-direction flex-flow flex-grow flex-shrink flex-wrap float float-defer float-offset float-reference flood-color flood-opacity flow flow-from flow-into font font-family font-feature-settings font-kerning font-language-override font-size font-size-adjust font-stretch font-style font-synthesis font-variant font-variant-alternates font-variant-caps font-variant-east-asian font-variant-ligatures font-variant-numeric font-variant-position font-weight footnote-display footnote-policy glyph-orientation-vertical grid grid-area grid-auto-columns grid-auto-flow grid-auto-rows grid-column grid-column-end grid-column-gap grid-column-start grid-gap grid-row grid-row-end grid-row-gap grid-row-start grid-template grid-template-areas grid-template-columns grid-template-rows hanging-punctuation height hyphenate-character hyphenate-limit-chars hyphenate-limit-last hyphenate-limit-lines hyphenate-limit-zone hyphens image-orientation image-rendering image-resolution initial-letter initial-letter-align initial-letter-wrap isolation justify-content justify-items justify-self left letter-spacing lighting-color line-break line-grid line-height line-snap list-style list-style-image list-style-position list-style-type margin margin-bottom margin-left margin-right margin-top marker marker-end marker-knockout-left marker-knockout-right marker-mid marker-pattern marker-segment marker-side marker-start marquee-direction marquee-loop marquee-speed marquee-style mask mask-border mask-border-mode mask-border-outset mask-border-repeat mask-border-slice mask-border-source mask-border-width mask-clip mask-composite mask-image mask-mode mask-origin mask-position mask-repeat mask-size mask-type max-height max-lines max-width min-height min-width mix-blend-mode motion motion-offset motion-path motion-rotation nav-down nav-left nav-right nav-up object-fit object-position offset-after offset-before offset-end offset-start opacity order orphans outline outline-color outline-offset outline-style outline-width overflow overflow-style overflow-wrap overflow-x overflow-y padding padding-bottom padding-left padding-right padding-top page page-break-after page-break-before page-break-inside pause pause-after pause-before perspective perspective-origin pitch pitch-range play-during position presentation-level quotes region-fragment resize rest rest-after rest-before richness right rotation rotation-point ruby-align ruby-merge ruby-position running scroll-behavior scroll-padding scroll-padding-block scroll-padding-block-end scroll-padding-block-start scroll-padding-bottom scroll-padding-inline scroll-padding-inline-end scroll-padding-inline-start scroll-padding-left scroll-padding-right scroll-padding-top scroll-snap-align scroll-snap-margin scroll-snap-margin-block scroll-snap-margin-block-end scroll-snap-margin-block-start scroll-snap-margin-bottom scroll-snap-margin-inline scroll-snap-margin-inline-end scroll-snap-margin-inline-start scroll-snap-margin-left scroll-snap-margin-right scroll-snap-margin-top scroll-snap-stop scroll-snap-type shape-image-threshold shape-inside shape-margin shape-outside size speak speak-as speak-header speak-numeral speak-punctuation speech-rate stress string-set stroke stroke-alignment stroke-dashadjust stroke-dasharray stroke-dashcorner stroke-dashoffset stroke-linecap stroke-linejoin stroke-miterlimit stroke-opacity stroke-width tab-size table-layout text-align text-align-last text-combine-upright text-decoration text-decoration-color text-decoration-line text-decoration-skip text-decoration-style text-emphasis text-emphasis-color text-emphasis-position text-emphasis-style text-indent text-justify text-orientation text-overflow text-shadow text-space-collapse text-space-trim text-spacing text-transform text-underline-position text-wrap top transform transform-origin transform-style transition transition-delay transition-duration transition-property transition-timing-function unicode-bidi user-select vertical-align visibility voice-balance voice-duration voice-family voice-pitch voice-range voice-rate voice-stress voice-volume volume white-space widows width will-change word-break word-spacing word-wrap wrap-after wrap-before wrap-flow wrap-inside wrap-through writing-mode z-index</Keywords>
+            <Keywords name="Keywords2">active any-link blank checked current default dir disabled drop empty enabled first-child first-of-type focus focus-ring future has hover in-range indeterminate invalid lang last-child last-of-type link matches not nth-child nth-column nth-last-child nth-last-column nth-last-of-type nth-of-type only-child only-of-type optional out-of-range past placeholder-shown read-only read-write required root scope target user-error valid visited</Keywords>
+            <Keywords name="Keywords3">a abbr acronym action address applet archive area article aside audio b background bdi bdo big blink blockquote body br button canvas caption cite code col colgroup command dd del details dfn dialog dir div dl dt em embed fieldset figcaption figure font footer frame h1 h2 h3 h4 h5 h6 head header height hgroup hr html i iframe img input ins kbd label legend li link listing main map mark marquee media menu menuitem meta meter nav object ol optgroup option output p param picture plaintext pre progress q rp rt rtc ruby s samp script section select shadow shape small source spacer span strike strong style sub summary sup svg table tbody td template textarea tfoot th thead time tr track tt u ul video wbr xmp</Keywords>
+            <Keywords name="Keywords4">@ !</Keywords>
+            <Keywords name="Keywords5"># . &amp;</Keywords>
+            <Keywords name="Keywords6">--</Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&apos; 01 02&apos; 03&quot; 04 05&quot; 06 07 08 09[ 10 11] 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="AE81FF" bgColor="272822" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="7B7764" bgColor="272822" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="75715E" bgColor="272822" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="CA71FF" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="66D9EF" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="A6E22E" bgColor="272822" fontName="" fontStyle="2" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="F92672" bgColor="272822" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="F92672" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="A6E22E" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="66D9EF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FFFFFF" bgColor="272822" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="FFFFFF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="E6DB74" bgColor="000000" fontName="" fontStyle="2" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="E6DB74" bgColor="000000" fontName="" fontStyle="2" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="56EC24" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
