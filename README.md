@@ -1,7 +1,7 @@
 # Modern CSS syntax highlighting for Notepad++ 
 Provides syntax highlight and automatic completion for the [new features implemented in CSS](https://cssdb.org/), using Notepad++'s [User Defined Language](http://udl20.weebly.com/).
 
-Current browsers do not support yet all the modern CSS specifications, so you will need to transform it into more compatible CSS using a tool like [PostCSS](https://postcss.org/) and the preset (postcss-preset-env)[https://preset-env.cssdb.org/].
+Current browsers do not support yet all the modern CSS specifications, so you will need to transform it into more compatible CSS using a tool like [PostCSS](https://postcss.org/) and the preset [postcss-preset-env](https://preset-env.cssdb.org/).
 
 ## CSS Features Support
 - Custom properties
@@ -19,7 +19,7 @@ Current browsers do not support yet all the modern CSS specifications, so you wi
 ### Usage
 Open a CSS file and enable the syntax highlight by selecting "Language > ModernCSS".
 
-(An example file ['test.css'](https://raw.githubusercontent.com/raohmaru/moderncss-npp-udl/master/test.css) is provided to test the syntax highlighting.)
+(An example file ['test.pcss'](https://raw.githubusercontent.com/raohmaru/moderncss-npp-udl/master/test.pcss) is provided to test the syntax highlighting.)
 
 ### Install Auto-completion File
 1. Close Notepad++.
