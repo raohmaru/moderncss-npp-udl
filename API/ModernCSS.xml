@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
-	<!-- Created by raohmaru, see https://github.com/raohmaru/msescript-notepad-udl for latest version-->
+	<!-- Created by raohmaru, see https://github.com/raohmaru/moderncss-notepad-udl for latest version-->
 	<AutoComplete>
 		<!--
 		Environment specifies how the language should be interpreted. ignoreCase makes autocomplete
