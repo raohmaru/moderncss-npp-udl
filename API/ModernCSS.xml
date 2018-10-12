@@ -22,1199 +22,1933 @@
 		following Param tag specifies a parameter, they must be in order. The name attributes specifies
 		the parameter name.
 		-->
-		<KeyWord name="absolute" />
-		<KeyWord name="active" />
-		<KeyWord name="additive-symbols" />
-		<KeyWord name="after" />
-		<KeyWord name="alias" />
-		<KeyWord name="align-content" />
-		<KeyWord name="align-items" />
-		<KeyWord name="align-self" />
-		<KeyWord name="alignment-baseline" />
-		<KeyWord name="all" />
-		<KeyWord name="all-petite-caps" />
-		<KeyWord name="all-scroll" />
-		<KeyWord name="all-small-caps" />
-		<KeyWord name="allow-end" />
-		<KeyWord name="alpha" />
-		<KeyWord name="alternate" />
-		<KeyWord name="alternate-reverse" />
-		<KeyWord name="always" />
-		<KeyWord name="animation" />
-		<KeyWord name="animation-delay" />
-		<KeyWord name="animation-direction" />
-		<KeyWord name="animation-duration" />
-		<KeyWord name="animation-fill-mode" />
-		<KeyWord name="animation-iteration-count" />
-		<KeyWord name="animation-name" />
-		<KeyWord name="animation-play-state" />
-		<KeyWord name="animation-timing-function" />
+		<KeyWord name=":after" func="yes">
+			<Overload retVal="" descr="Creates a pseudo-element that is the last child of the selected element. It is often used to add cosmetic content to an element with the content property. It is inline by default.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":backdrop" func="yes">
+			<Overload retVal="" descr="A box rendered immediately below any element rendered in fullscreen mode (and above any lower elements in the stack).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":before" func="yes">
+			<Overload retVal="" descr="Creates a pseudo-element that is the first child of the selected element. It is often used to add cosmetic content to an element with the content property.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":cue" func="yes">
+			<Overload retVal="" descr="WebVTT cues within a selected element. This can be used to style captions and other cues in media with VTT tracks.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":first-letter" func="yes">
+			<Overload retVal="" descr="Styles to the first letter of the first line of a block-level element, but only when not preceded by other content (such as images or inline tables).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":first-line" func="yes">
+			<Overload retVal="" descr="Styles to the first line of a block-level element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":placeholder" func="yes">
+			<Overload retVal="" descr="The placeholder text of a form element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":selection" func="yes">
+			<Overload retVal="" descr="Styles to the part of a document that has been highlighted by the user (such as clicking and dragging the mouse across text).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":slotted" func="yes">
+			<Overload retVal="" descr="Any element that has been placed into a slot inside an HTML template (see Using templates and slots for more information).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":active" func="yes">
+			<Overload retVal="" descr="An element (such as a button) that is being activated by the user.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":checked" func="yes">
+			<Overload retVal="" descr="Represents any radio (input type=&quot;radio&quot;), checkbox (input type=&quot;checkbox&quot;), or option (option in a select) element that is checked or toggled to an on state.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":default" func="yes">
+			<Overload retVal="" descr="Any form element that is the default among a group of related elements.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":dir" func="yes">
+			<Overload retVal="" descr="Elements based on the directionality of the text contained in them.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":disabled" func="yes">
+			<Overload retVal="" descr="Any disabled element. An element is disabled if it can't be activated (selected, clicked on, typed into, etc.) or accept focus. The element also has an enabled state, in which it can be activated or accept focus.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":empty" func="yes">
+			<Overload retVal="" descr="Any element that has no children. Children can be either element nodes or text (including whitespace). Comments or processing instructions do not affect whether an element is considered empty.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":enabled" func="yes">
+			<Overload retVal="" descr="Any enabled element. An element is enabled if it can be activated (selected, clicked on, typed into, etc.) or accept focus. The element also has a disabled state, in which it can't be activated or accept focus.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":first" func="yes">
+			<Overload retVal="" descr="Represents the first page of a printed document.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":first-child" func="yes">
+			<Overload retVal="" descr="The first element among a group of sibling elements.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":first-of-type" func="yes">
+			<Overload retVal="" descr="The first element of its type among a group of sibling elements.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":focus" func="yes">
+			<Overload retVal="" descr="An element (such as a form input) that has received focus. It is generally triggered when the user clicks or taps on an element or selects it with the keyboard's &quot;tab&quot; key.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":fullscreen" func="yes">
+			<Overload retVal="" descr="An element that's displayed when the browser is in fullscreen mode.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":hover" func="yes">
+			<Overload retVal="" descr="When the user interacts with an element with a pointing device, but does not necessarily activate it. It is generally triggered when the user hovers over an element with the cursor (mouse pointer).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":in-range" func="yes">
+			<Overload retVal="" descr="An input element whose current value is within the range limits specified by the min and max attributes.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":indeterminate" func="yes">
+			<Overload retVal="" descr="Any form element whose state is indeterminate.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":invalid" func="yes">
+			<Overload retVal="" descr="Any input or other form element whose contents fail to validate.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":lang" func="yes">
+			<Overload retVal="" descr="Elements based on the language they are determined to be in.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":last-child" func="yes">
+			<Overload retVal="" descr="The last element among a group of sibling elements.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":last-of-type" func="yes">
+			<Overload retVal="" descr="The last element of its type among a group of sibling elements.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":left" func="yes">
+			<Overload retVal="" descr="Represents all left-hand pages of a printed document.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":link" func="yes">
+			<Overload retVal="" descr="An element that has not yet been visited. It matches every unvisited a, area, or link element that has an href attribute.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":not" func="yes">
+			<Overload retVal="" descr="Elements that do not match a list of selectors. Since it prevents specific items from being selected, it is known as the negation pseudo-class.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":nth-child" func="yes">
+			<Overload retVal="" descr="Elements based on their position in a group of siblings.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":nth-last-child" func="yes">
+			<Overload retVal="" descr="Elements based on their position among a group of siblings, counting from the end.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":nth-last-of-type" func="yes">
+			<Overload retVal="" descr="Elements of a given type, based on their position among a group of siblings, counting from the end.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":nth-of-type" func="yes">
+			<Overload retVal="" descr="Elements of a given type, based on their position among a group of siblings.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":only-child" func="yes">
+			<Overload retVal="" descr="An element without any siblings. This is the same as :first-child:last-child or :nth-child(1):nth-last-child(1), but with a lower specificity.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":only-of-type" func="yes">
+			<Overload retVal="" descr="An element that has no siblings of the same type.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":optional" func="yes">
+			<Overload retVal="" descr="Any input, select, or textarea element that does not have the required attribute set on it.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":out-of-range" func="yes">
+			<Overload retVal="" descr="An input element whose current value is outside the range limits specified by the min and max attributes.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":read-only" func="yes">
+			<Overload retVal="" descr="An element (such as a locked text input) that is not editable by the user.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":read-write" func="yes">
+			<Overload retVal="" descr="An element (such as a text input) that is editable by the user.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":required" func="yes">
+			<Overload retVal="" descr="Any input, select, or textarea element that has the required attribute set on it.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":right" func="yes">
+			<Overload retVal="" descr="Represents all right-hand pages of a printed document.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":root" func="yes">
+			<Overload retVal="" descr="The root element of a tree representing the document. In HTML, :root represents the html element and is identical to the selector html, except that its specificity is higher.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":scope" func="yes">
+			<Overload retVal="" descr="Elements that are a reference point for selectors to match against.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":target" func="yes">
+			<Overload retVal="" descr="A unique element (the target element) with an id matching the URL's fragment.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":valid" func="yes">
+			<Overload retVal="" descr="Any input or other form element whose contents validate successfully. This allows to easily make valid fields adopt an appearance that helps the user confirm that their data is formatted properly.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name=":visited" func="yes">
+			<Overload retVal="" descr="Links that the user has already visited. For privacy reasons, the styles that can be modified using this selector are very limited.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@annotation" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@bottom-center" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@character-variant" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@charset" func="yes">
+			<Overload retVal="" descr="Specifies the character encoding used in the style sheet. It must be the first element in the style sheet and not be preceded by any character; as it is not a nested statement, it cannot be used inside conditional group at-rules. If several @charset at-rules are defined, only the first one is used, and it cannot be used inside a style attribute on an HTML element or inside the style element where the character set of the HTML page is relevant.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@counter-style" func="yes">
+			<Overload retVal="" descr="Lets you define counter styles that are not part of the predefined set of styles. A @counter-style rule defines how to convert a counter value into a string representation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@font-face" func="yes">
+			<Overload retVal="" descr="Specifies a custom font with which to display text; the font can be loaded from either a remote server or the user's own computer.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@font-feature-values" func="yes">
+			<Overload retVal="" descr="Lets you use a common name in the font-variant-alternates property for features activated differently in OpenType. This can help simplify your CSS when using multiple fonts.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@historical-forms" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@import" func="yes">
+			<Overload retVal="" descr="Is used to import style rules from other style sheets. These rules must precede all other types of rules, except @charset rules; as it is not a nested statement, @import cannot be used inside conditional group at-rules.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@keyframes" func="yes">
+			<Overload retVal="" descr="Controls the intermediate steps in a CSS animation sequence by defining styles for keyframes (or waypoints) along the animation sequence.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@left-bottom" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@media" func="yes">
+			<Overload retVal="" descr="Can be used to apply part of a style sheet based on the result of one or more media queries.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@namespace" func="yes">
+			<Overload retVal="" descr="Defines XML namespaces to be used in a CSS style sheet. The defined namespaces can be used to restrict the universal, type, and attribute selectors to only select elements within that namespace. The @namespace rule is generally only useful when dealing with documents containing multiple namespaces—such as HTML5 with inline SVG or MathML, or XML that mixes multiple vocabularies.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@ornaments" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@page" func="yes">
+			<Overload retVal="" descr="Is used to modify some CSS properties when printing a document. You can't change all CSS properties with @page. You can only change the margins, orphans, widows, and page breaks of the document. Attempts to change any other CSS properties will be ignored.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@right-bottom" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@styleset" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@stylistic" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@supports" func="yes">
+			<Overload retVal="" descr="Lets you specify declarations that depend on a browser's support for one or more specific CSS features. This is called a feature query. The rule may be placed at the top level of your code or nested inside any other conditional group at-rule.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@swash" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@top-center" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="@viewport" func="yes">
+			<Overload retVal="" descr="Lets you configure the viewport through which the document is viewed. It's primarily used for mobile devices, but is also used by desktop browsers that support features like &quot;snap to edge&quot; (such as Microsoft Edge).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="additive-symbols" func="yes">
+			<Overload retVal="" descr="Lets you specify symbols when the value of a counter system descriptor is additive. The additive-symbols descriptor defines additive tuples, each of which is a pair containing a symbol and a non-negative integer weight. The additive system is used to construct sign-value numbering systems such as Roman numerals.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="align-content" func="yes">
+			<Overload retVal="" descr="Defines how the browser distributes space between and around content items along the cross-axis of their container, which is serving as a flexbox container.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="align-items" func="yes">
+			<Overload retVal="" descr="Sets the align-self value on all direct children as a group. The align-self property sets the alignment of an item within its containing block.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="align-self" func="yes">
+			<Overload retVal="" descr="Aligns flex items of the current flex line overriding the align-items value. If any of the item's cross-axis margin is set to auto, then align-self is ignored.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="all" func="yes">
+			<Overload retVal="" descr="Sets all of an element's properties (other than unicode-bidi and direction) to their initial or inherited values, or to the values specified in another stylesheet origin.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="animation" func="yes">
+			<Overload retVal="" descr="Is a shorthand property for the various animation properties: animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction, animation-fill-mode, and animation-play-state.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="animation-delay" func="yes">
+			<Overload retVal="" descr="Specifies when an animation should start. You can begin the animation at a future point in time, immediately and from its beginning, or immediately and partway through the animation cycle.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="animation-direction" func="yes">
+			<Overload retVal="" descr="Specifies whether an animation should play forwards, backwards, or alternating back and forth.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="animation-duration" func="yes">
+			<Overload retVal="" descr="Specifies the length of time that an animation should take to complete one cycle.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="animation-fill-mode" func="yes">
+			<Overload retVal="" descr="Specifies how a CSS animation should apply styles to its target before and after its execution.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="animation-iteration-count" func="yes">
+			<Overload retVal="" descr="Sets the number of times an animation cycle should be played before stopping.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="animation-name" func="yes">
+			<Overload retVal="" descr="Specifies one or more animations that should be applied to an element. Each name indicates an @keyframes at-rule that defines the property values for the animation sequence.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="animation-play-state" func="yes">
+			<Overload retVal="" descr="Sets whether an animation is running or paused.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="animation-timing-function" func="yes">
+			<Overload retVal="" descr="CSS property specifies how a CSS animation should progress over the duration of each cycle.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="annotation()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="any-hover" />
-		<KeyWord name="any-link" />
-		<KeyWord name="any-pointer" />
-		<KeyWord name="appearance" />
-		<KeyWord name="aspect-ratio" />
 		<KeyWord name="attr()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Is used to retrieve the value of an attribute of the selected element and use it in the style sheet. It can also be used on pseudo-elements, in which case the value of the attribute on the pseudo-element's originating element is returned.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="auto" />
-		<KeyWord name="avoid" />
-		<KeyWord name="avoid-column" />
-		<KeyWord name="avoid-page" />
-		<KeyWord name="azimuth" />
-		<KeyWord name="backdrop" />
-		<KeyWord name="backface-visibility" />
-		<KeyWord name="background" />
-		<KeyWord name="background-attachment" />
-		<KeyWord name="background-blend-mode" />
-		<KeyWord name="background-clip" />
-		<KeyWord name="background-color" />
-		<KeyWord name="background-image" />
-		<KeyWord name="background-origin" />
-		<KeyWord name="background-position" />
-		<KeyWord name="background-repeat" />
-		<KeyWord name="background-size" />
-		<KeyWord name="backwards" />
-		<KeyWord name="balance" />
-		<KeyWord name="baseline" />
-		<KeyWord name="baseline-shift" />
-		<KeyWord name="before" />
-		<KeyWord name="below" />
-		<KeyWord name="bidi-override" />
-		<KeyWord name="blank" />
-		<KeyWord name="blink" />
-		<KeyWord name="block" />
-		<KeyWord name="block-size" />
+		<KeyWord name="backface-visibility" func="yes">
+			<Overload retVal="" descr="Determines whether the back face of an element is visible when turned towards the user.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="background" func="yes">
+			<Overload retVal="" descr="Is a short way to declare all background style options at once, including color, image, origin and size, repeat method, and other features.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="background-attachment" func="yes">
+			<Overload retVal="" descr="Determines whether that image's position is fixed within the viewport, or scrolls along with its containing block.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="background-blend-mode" func="yes">
+			<Overload retVal="" descr="Sets how an element's background images should blend with each other and with the element's background color.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="background-clip" func="yes">
+			<Overload retVal="" descr="Specifies if an element's background, whether a color or an image, extends underneath its border.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="background-color" func="yes">
+			<Overload retVal="" descr="Sets the background color of an element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="background-image" func="yes">
+			<Overload retVal="" descr="Sets one or more background images on an element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="background-origin" func="yes">
+			<Overload retVal="" descr="Sets the background positioning area. In other words, it sets the origin position of an image set with the background-image property.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="background-position" func="yes">
+			<Overload retVal="" descr="Sets the initial position, relative to the background position layer defined by background-origin, for each defined background image.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="background-repeat" func="yes">
+			<Overload retVal="" descr="Defines how background images are repeated. A background image can be repeated along the horizontal axis, the vertical axis, both axes, or not repeated at all.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="background-size" func="yes">
+			<Overload retVal="" descr="Specifies the size of the element's background image. The image can be left to its natural size, stretched to a new size, or constrained to fit the available space while preserving its intrinsic proportions.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="block-size" func="yes">
+			<Overload retVal="" descr="Defines the horizontal or vertical size of an element's block, depending on its writing mode. It corresponds to either the width or the height property, depending on the value of writing-mode.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="blur()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Applies a Gaussian blur to the input image. Its result is a filter-function.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="bold" />
-		<KeyWord name="bolder" />
-		<KeyWord name="bookmark-label" />
-		<KeyWord name="bookmark-level" />
-		<KeyWord name="bookmark-state" />
-		<KeyWord name="border" />
-		<KeyWord name="border-block-end" />
-		<KeyWord name="border-block-end-color" />
-		<KeyWord name="border-block-end-style" />
-		<KeyWord name="border-block-end-width" />
-		<KeyWord name="border-block-start" />
-		<KeyWord name="border-block-start-color" />
-		<KeyWord name="border-block-start-style" />
-		<KeyWord name="border-block-start-width" />
-		<KeyWord name="border-bottom" />
-		<KeyWord name="border-bottom-color" />
-		<KeyWord name="border-bottom-left-radius" />
-		<KeyWord name="border-bottom-right-radius" />
-		<KeyWord name="border-bottom-style" />
-		<KeyWord name="border-bottom-width" />
-		<KeyWord name="border-boundary" />
-		<KeyWord name="border-box" />
-		<KeyWord name="border-collapse" />
-		<KeyWord name="border-color" />
-		<KeyWord name="border-image" />
-		<KeyWord name="border-image-outset" />
-		<KeyWord name="border-image-repeat" />
-		<KeyWord name="border-image-slice" />
-		<KeyWord name="border-image-source" />
-		<KeyWord name="border-image-width" />
-		<KeyWord name="border-inline-end" />
-		<KeyWord name="border-inline-end-color" />
-		<KeyWord name="border-inline-end-style" />
-		<KeyWord name="border-inline-end-width" />
-		<KeyWord name="border-inline-start" />
-		<KeyWord name="border-inline-start-color" />
-		<KeyWord name="border-inline-start-style" />
-		<KeyWord name="border-inline-start-width" />
-		<KeyWord name="border-left" />
-		<KeyWord name="border-left-color" />
-		<KeyWord name="border-left-style" />
-		<KeyWord name="border-left-width" />
-		<KeyWord name="border-radius" />
-		<KeyWord name="border-right" />
-		<KeyWord name="border-right-color" />
-		<KeyWord name="border-right-style" />
-		<KeyWord name="border-right-width" />
-		<KeyWord name="border-spacing" />
-		<KeyWord name="border-style" />
-		<KeyWord name="border-top" />
-		<KeyWord name="border-top-color" />
-		<KeyWord name="border-top-left-radius" />
-		<KeyWord name="border-top-right-radius" />
-		<KeyWord name="border-top-style" />
-		<KeyWord name="border-top-width" />
-		<KeyWord name="border-width" />
-		<KeyWord name="both" />
-		<KeyWord name="bottom" />
-		<KeyWord name="box-decoration" />
-		<KeyWord name="box-decoration-break" />
-		<KeyWord name="box-shadow" />
-		<KeyWord name="box-sizing" />
-		<KeyWord name="box-snap" />
-		<KeyWord name="break-after" />
-		<KeyWord name="break-all" />
-		<KeyWord name="break-before" />
-		<KeyWord name="break-inside" />
-		<KeyWord name="break-word" />
+		<KeyWord name="border" func="yes">
+			<Overload retVal="" descr="Is a shorthand for setting all individual border property values in a single declaration: border-width, border-style, and border-color.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-block-end" func="yes">
+			<Overload retVal="" descr="Is a shorthand property for setting the individual logical block-end border property values in a single place in the style sheet.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-block-end-color" func="yes">
+			<Overload retVal="" descr="Defines the color of the logical block-end border of an element, which maps to a physical border color depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-color, border-right-color, border-bottom-color, or border-left-color property depending on the values defined for writing-mode, direction, and text-orientation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-block-end-style" func="yes">
+			<Overload retVal="" descr="Defines the style of the logical block end border of an element, which maps to a physical border style depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-style, border-right-style, border-bottom-style, or border-left-style property depending on the values defined for writing-mode, direction, and text-orientation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-block-end-width" func="yes">
+			<Overload retVal="" descr="Defines the width of the logical block-end border of an element, which maps to a physical border width depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-width, border-right-width, border-bottom-width, or border-left-width property depending on the values defined for writing-mode, direction, and text-orientation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-block-start" func="yes">
+			<Overload retVal="" descr="Is a shorthand property for setting the individual logical block-start border property values in a single place in the style sheet.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-block-start-color" func="yes">
+			<Overload retVal="" descr="Defines the color of the logical block-start border of an element, which maps to a physical border color depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-color, border-right-color, border-bottom-color, or border-left-color property depending on the values defined for writing-mode, direction, and text-orientation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-block-start-style" func="yes">
+			<Overload retVal="" descr="Defines the style of the logical block start border of an element, which maps to a physical border style depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-style, border-right-style, border-bottom-style, or border-left-style property depending on the values defined for writing-mode, direction, and text-orientation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-block-start-width" func="yes">
+			<Overload retVal="" descr="Defines the width of the logical block-start border of an element, which maps to a physical border width depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-width, border-right-width, border-bottom-width, or border-left-width property depending on the values defined for writing-mode, direction, and text-orientation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-bottom" func="yes">
+			<Overload retVal="" descr="Is a shorthand that sets the values of border-bottom-width, border-bottom-style and border-bottom-color. These properties describe an element's bottom border.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-bottom-color" func="yes">
+			<Overload retVal="" descr="Sets the color of an element's bottom border. The color can also be set with the shorthand CSS properties border-color or border-bottom.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-bottom-left-radius" func="yes">
+			<Overload retVal="" descr="Sets the rounding of the bottom-left corner of the element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-bottom-right-radius" func="yes">
+			<Overload retVal="" descr="Sets the rounding of the bottom-right corner of the element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-bottom-style" func="yes">
+			<Overload retVal="" descr="Sets the line style of an element's bottom border.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-bottom-width" func="yes">
+			<Overload retVal="" descr="Sets the width of the bottom border of a box.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-collapse" func="yes">
+			<Overload retVal="" descr="Specifies whether cells inside a table have shared or separate borders.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-color" func="yes">
+			<Overload retVal="" descr="Is a shorthand property for setting the colors on all four sides of an element's border.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-image" func="yes">
+			<Overload retVal="" descr="Lets you draw an image in place of an element's border-style.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-image-outset" func="yes">
+			<Overload retVal="" descr="Sets the distance by which an element's border image is set out from its border box.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-image-repeat" func="yes">
+			<Overload retVal="" descr="Defines how the edge regions of a source image are adjusted to fit the dimensions of an element's border image.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-image-slice" func="yes">
+			<Overload retVal="" descr="Divides the image specified by border-image-source into regions. These regions are used to form the components of an element's border image.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-image-source" func="yes">
+			<Overload retVal="" descr="Specifies the source image used to create an element's border image.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-image-width" func="yes">
+			<Overload retVal="" descr="Specifies the width of an element's border image.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-inline-end" func="yes">
+			<Overload retVal="" descr="Is a shorthand property for setting the individual logical inline-end border property values in a single place in the style sheet.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-inline-end-color" func="yes">
+			<Overload retVal="" descr="Defines the color of the logical inline-end border of an element, which maps to a physical border color depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-color, border-right-color, border-bottom-color, or border-left-color property depending on the values defined for writing-mode, direction, and text-orientation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-inline-end-style" func="yes">
+			<Overload retVal="" descr="Defines the style of the logical inline end border of an element, which maps to a physical border style depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-style, border-right-style, border-bottom-style, or border-left-style property depending on the values defined for writing-mode, direction, and text-orientation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-inline-end-width" func="yes">
+			<Overload retVal="" descr="Defines the width of the logical inline-end border of an element, which maps to a physical border width depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-width, border-right-width, border-bottom-width, or border-left-width property depending on the values defined for writing-mode, direction, and text-orientation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-inline-start" func="yes">
+			<Overload retVal="" descr="Is a shorthand property for setting the individual logical inline-start border property values in a single place in the style sheet.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-inline-start-color" func="yes">
+			<Overload retVal="" descr="Defines the color of the logical inline start border of an element, which maps to a physical border color depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-color, border-right-color, border-bottom-color, or border-left-color property depending on the values defined for writing-mode, direction, and text-orientation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-inline-start-style" func="yes">
+			<Overload retVal="" descr="Defines the style of the logical inline start border of an element, which maps to a physical border style depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-style, border-right-style, border-bottom-style, or border-left-style property depending on the values defined for writing-mode, direction, and text-orientation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-inline-start-width" func="yes">
+			<Overload retVal="" descr="Defines the width of the logical inline-start border of an element, which maps to a physical border width depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-width, border-right-width, border-bottom-width, or border-left-width property depending on the values defined for writing-mode, direction, and text-orientation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-left" func="yes">
+			<Overload retVal="" descr="Is a shorthand that sets the values of border-left-width, border-left-style, and border-left-color. These properties describe an element's left border.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-left-color" func="yes">
+			<Overload retVal="" descr="Sets the color of an element's left border. Note that in many cases the shorthand CSS properties border-color or border-left are more convenient and preferable.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-left-style" func="yes">
+			<Overload retVal="" descr="Sets the line style of an element's left border.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-left-width" func="yes">
+			<Overload retVal="" descr="Sets the width of the top border of a box.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-radius" func="yes">
+			<Overload retVal="" descr="Lets you round the corners of an element's outer border edge. You can specify a single radius to make circular corners, or two radii to make elliptical corners.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-right" func="yes">
+			<Overload retVal="" descr="Is a shorthand that sets the values of border-right-width, border-right-style, and border-right-color. These properties describe an element's right border.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-right-color" func="yes">
+			<Overload retVal="" descr="Sets the color of an element's right border. Note that in many cases the shorthand CSS properties  border-color or border-right are more convenient and preferable.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-right-style" func="yes">
+			<Overload retVal="" descr="Sets the line style of an element's right border.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-right-width" func="yes">
+			<Overload retVal="" descr="Sets the width of the right border of a box.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-spacing" func="yes">
+			<Overload retVal="" descr="Specifies the distance between the borders of adjacent table cells. This property applies only when border-collapse is separate.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-style" func="yes">
+			<Overload retVal="" descr="Is a shorthand property that sets the line style for all four sides of an element's border.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-top" func="yes">
+			<Overload retVal="" descr="Is a shorthand that sets the values of border-top-width, border-top-style, and border-top-color. These properties describe an element's top border.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-top-color" func="yes">
+			<Overload retVal="" descr="Sets the color of an element's top border. Note that in many cases the shorthand CSS properties border-color or border-top are more convenient and preferable.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-top-left-radius" func="yes">
+			<Overload retVal="" descr="Sets the rounding of the top-left corner of the element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-top-right-radius" func="yes">
+			<Overload retVal="" descr="Sets the rounding of the top-right corner of the element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-top-style" func="yes">
+			<Overload retVal="" descr="Sets the line style of an element's top border.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-top-width" func="yes">
+			<Overload retVal="" descr="Sets the width of the top border of a box.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="border-width" func="yes">
+			<Overload retVal="" descr="Is a shorthand property for setting the widths on all four sides of an element's border.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bottom" func="yes">
+			<Overload retVal="" descr="Participates in specifying the vertical position of a positioned element. It has no effect on non-positioned elements.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="box-decoration-break" func="yes">
+			<Overload retVal="" descr="Specifies how an element's fragments should be rendered when broken across multiple lines, columns, or pages.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="box-shadow" func="yes">
+			<Overload retVal="" descr="Is used to add shadow effects around an element's frame. You can specify multiple effects separated by commas if you wish to do so.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="box-sizing" func="yes">
+			<Overload retVal="" descr="Defines how the user agent should calculate the total width and height of an element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="break-after" func="yes">
+			<Overload retVal="" descr="Defines how page, column, or region breaks should behave after a generated box. If there is no generated box, the property is ignored.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="break-before" func="yes">
+			<Overload retVal="" descr="Defines how page, column, or region breaks should behave before a generated box. If there is no generated box, the property is ignored.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="break-inside" func="yes">
+			<Overload retVal="" descr="Defines how page, column, or region breaks should behave inside a generated box. If there is no generated box, the property is ignored.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="brightness()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Applies a linear multiplier to the input image, making it appear brighter or darker. Its result is a filter-function.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="calc()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Lets you perform calculations when specifying CSS property values. It can be used anywhere a length, frequency, angle, time, percentage, number, or integer is allowed.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="capitalize" />
-		<KeyWord name="caption-side" />
-		<KeyWord name="caret" />
-		<KeyWord name="caret-animation" />
-		<KeyWord name="caret-color" />
-		<KeyWord name="caret-shape" />
-		<KeyWord name="cell" />
-		<KeyWord name="center" />
-		<KeyWord name="ch" />
-		<KeyWord name="chains" />
+		<KeyWord name="caption-side" func="yes">
+			<Overload retVal="" descr="Puts the content of a table's caption on the specified side. The values are relative to the writing-mode of the table.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="caret-color" func="yes">
+			<Overload retVal="" descr="Sets the color of the insertion caret — the visible indicator of the point at which the next character typed by the user will be inserted — within an element such as input or one with the contenteditable attribute set.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ch" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="character-variant()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="charset" />
-		<KeyWord name="checked" />
-		<KeyWord name="circle" />
 		<KeyWord name="circle()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="clear" />
-		<KeyWord name="clip" />
-		<KeyWord name="clip-path" />
-		<KeyWord name="clip-rule" />
-		<KeyWord name="clone" />
-		<KeyWord name="close-quote" />
-		<KeyWord name="cm" />
-		<KeyWord name="col-resize" />
-		<KeyWord name="collapse" />
-		<KeyWord name="color" />
-		<KeyWord name="color-adjust" />
-		<KeyWord name="color-burn" />
-		<KeyWord name="color-dodge" />
-		<KeyWord name="color-gamut" />
-		<KeyWord name="color-index" />
-		<KeyWord name="color-interpolation-filters" />
-		<KeyWord name="column" />
-		<KeyWord name="column-count" />
-		<KeyWord name="column-fill" />
-		<KeyWord name="column-gap" />
-		<KeyWord name="column-reverse" />
-		<KeyWord name="column-rule" />
-		<KeyWord name="column-rule-color" />
-		<KeyWord name="column-rule-style" />
-		<KeyWord name="column-rule-width" />
-		<KeyWord name="column-span" />
-		<KeyWord name="column-width" />
-		<KeyWord name="columns" />
-		<KeyWord name="compact" />
-		<KeyWord name="condensed" />
-		<KeyWord name="contain" />
-		<KeyWord name="container" />
-		<KeyWord name="content" />
-		<KeyWord name="content-box" />
-		<KeyWord name="contents" />
-		<KeyWord name="context-menu" />
+		<KeyWord name="clear" func="yes">
+			<Overload retVal="" descr="Specifies whether an element can be next to floating elements that precede it or must be moved down (cleared) below them. The clear property applies to both floating and non-floating elements.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="clip" func="yes">
+			<Overload retVal="" descr="Defines what portion of an element is visible. The clip property applies only to absolutely positioned elements, that is elements with position:absolute or position:fixed.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="clip-path" func="yes">
+			<Overload retVal="" descr="Creates a clipping region that defines what part of an element should be displayed. More specifically, those portions that are inside the region are shown, while those outside are hidden.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cm" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="color" func="yes">
+			<Overload retVal="" descr="Sets the foreground color value of an element's text content and text decorations. It also sets the currentcolor value, which may be used as an indirect value on other properties, and is the default for other color properties, such as border-color.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="color-adjust" func="yes">
+			<Overload retVal="" descr="Gives the web author control over what if anything the user agent may do to optimize the appearance of the element on the output device.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="column-count" func="yes">
+			<Overload retVal="" descr="Breaks an element's content into the specified number of columns.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="column-fill" func="yes">
+			<Overload retVal="" descr="Controls how an element's contents are balanced when broken into columns.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="column-gap" func="yes">
+			<Overload retVal="" descr="Sets the size of the gap (gutter) between an element's columns.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="column-rule" func="yes">
+			<Overload retVal="" descr="Sets the width, style, and color of the rule (line) drawn between columns in a multi-column layout.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="column-rule-color" func="yes">
+			<Overload retVal="" descr="Sets the color of the rule (line) drawn between columns in a multi-column layout.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="column-rule-style" func="yes">
+			<Overload retVal="" descr="Sets the style of the line drawn between columns in a multi-column layout.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="column-rule-width" func="yes">
+			<Overload retVal="" descr="Sets the width of the rule (line) drawn between columns in a multi-column layout.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="column-span" func="yes">
+			<Overload retVal="" descr="Makes it possible for an element to span across all columns when its value is set to all.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="column-width" func="yes">
+			<Overload retVal="" descr="Specifies the ideal column width in a multi-column layout. The container will have as many columns as can fit without any of them having a width less than the column-width value.  If the width of the container is narrower than the specified value, the single column's width will be smaller than the declared column width.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="columns" func="yes">
+			<Overload retVal="" descr="Sets the column width and column count of an element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="content" func="yes">
+			<Overload retVal="" descr="Replaces an element with a generated value. Objects inserted using the content property are anonymous replaced elements.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="contrast()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Adjusts the contrast of the input image. Its result is a filter-function.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="copy" />
-		<KeyWord name="counter-increment" />
-		<KeyWord name="counter-reset" />
-		<KeyWord name="counter-set" />
-		<KeyWord name="counter-style" />
-		<KeyWord name="cover" />
-		<KeyWord name="crisp-edges" />
+		<KeyWord name="counter-increment" func="yes">
+			<Overload retVal="" descr="Increases or decreases the value of a CSS counter by a given value.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="counter-reset" func="yes">
+			<Overload retVal="" descr="Resets a CSS counter to a given value.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="cross-fade()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="crosshair" />
 		<KeyWord name="cubic-bezier()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="cue" />
-		<KeyWord name="cue-after" />
-		<KeyWord name="cue-before" />
-		<KeyWord name="current" />
-		<KeyWord name="cursor" />
-		<KeyWord name="darken" />
-		<KeyWord name="dashed" />
-		<KeyWord name="decimal" />
-		<KeyWord name="decimal-leading-zero" />
-		<KeyWord name="default" />
-		<KeyWord name="deg" />
-		<KeyWord name="descendants" />
-		<KeyWord name="device-aspect-ratio" />
-		<KeyWord name="device-height" />
-		<KeyWord name="device-radius" />
-		<KeyWord name="device-width" />
-		<KeyWord name="difference" />
-		<KeyWord name="digits" />
-		<KeyWord name="dir" />
-		<KeyWord name="direction" />
-		<KeyWord name="disabled" />
-		<KeyWord name="disc" />
-		<KeyWord name="display" />
-		<KeyWord name="distribute" />
-		<KeyWord name="document" />
-		<KeyWord name="dominant-baseline" />
-		<KeyWord name="dot" />
-		<KeyWord name="dotted" />
-		<KeyWord name="double" />
-		<KeyWord name="double-circle" />
-		<KeyWord name="dpcm" />
-		<KeyWord name="dpi" />
-		<KeyWord name="dppx" />
-		<KeyWord name="drop" />
+		<KeyWord name="cursor" func="yes">
+			<Overload retVal="" descr="Specifies which mouse cursor to display when the mouse pointer is over an element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="deg" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="direction" func="yes">
+			<Overload retVal="" descr="Sets the direction of text, table columns, and horizontal overflow.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="display" func="yes">
+			<Overload retVal="" descr="Defines the display type of an element, which consists of the two basic qualities of how an element generates boxes — the outer display type defining how the box participates in flow layout, and the inner display type defining how the children of the box are laid out.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dpcm" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dpi" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="dppx" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="drop-shadow()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Applies a drop shadow effect to the input image. Its result is a filter-function.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="e-resize" />
-		<KeyWord name="each-line" />
-		<KeyWord name="ease" />
-		<KeyWord name="ease-in" />
-		<KeyWord name="ease-in-out" />
-		<KeyWord name="ease-out" />
-		<KeyWord name="edges" />
 		<KeyWord name="element()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Defines an image value generated from an arbitrary HTML element. This image is live, meaning that if the HTML element is changed, the CSS properties using the resulting value are automatically updated.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="elevation" />
 		<KeyWord name="ellipse()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="ellipsis" />
-		<KeyWord name="em" />
-		<KeyWord name="embed" />
-		<KeyWord name="empty" />
-		<KeyWord name="empty-cells" />
-		<KeyWord name="enabled" />
-		<KeyWord name="end" />
-		<KeyWord name="ew-resize" />
-		<KeyWord name="ex" />
-		<KeyWord name="exclusion" />
-		<KeyWord name="expanded" />
-		<KeyWord name="extra-condensed" />
-		<KeyWord name="extra-expanded" />
-		<KeyWord name="fallback" />
-		<KeyWord name="fill" />
-		<KeyWord name="fill-box" />
-		<KeyWord name="filled" />
-		<KeyWord name="filter" />
-		<KeyWord name="first" />
-		<KeyWord name="first-child" />
-		<KeyWord name="first-letter" />
-		<KeyWord name="first-line" />
-		<KeyWord name="first-of-type" />
+		<KeyWord name="em" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="empty-cells" func="yes">
+			<Overload retVal="" descr="Specifies how the user agent should render borders and backgrounds around table cells that have no visible content.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ex" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fallback" func="yes">
+			<Overload retVal="" descr="Can be used to specify a counter style to fall back to if the current counter style cannot create a marker representation for a particular counter value.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="filter" func="yes">
+			<Overload retVal="" descr="Lets you apply graphical effects like blurring or color shifting to an element. Filters are commonly used to adjust the rendering of images, backgrounds, and borders.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="fit-content()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Clamps a given size to an available size according to the formula min(maximum size, max(minimum size, argument)).">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="fixed" />
-		<KeyWord name="flat" />
-		<KeyWord name="flex" />
-		<KeyWord name="flex-basis" />
-		<KeyWord name="flex-direction" />
-		<KeyWord name="flex-end" />
-		<KeyWord name="flex-flow" />
-		<KeyWord name="flex-grow" />
-		<KeyWord name="flex-shrink" />
-		<KeyWord name="flex-start" />
-		<KeyWord name="flex-wrap" />
-		<KeyWord name="flip" />
-		<KeyWord name="float" />
-		<KeyWord name="float-defer" />
-		<KeyWord name="float-offset" />
-		<KeyWord name="float-reference" />
-		<KeyWord name="flood-color" />
-		<KeyWord name="flood-opacity" />
-		<KeyWord name="flow" />
-		<KeyWord name="flow-from" />
-		<KeyWord name="flow-into" />
-		<KeyWord name="focus" />
-		<KeyWord name="focus-ring" />
-		<KeyWord name="font" />
-		<KeyWord name="font-face" />
-		<KeyWord name="font-family" />
-		<KeyWord name="font-feature-settings" />
-		<KeyWord name="font-feature-values" />
-		<KeyWord name="font-kerning" />
-		<KeyWord name="font-language-override" />
-		<KeyWord name="font-size" />
-		<KeyWord name="font-size-adjust" />
-		<KeyWord name="font-stretch" />
-		<KeyWord name="font-style" />
-		<KeyWord name="font-synthesis" />
-		<KeyWord name="font-variant" />
-		<KeyWord name="font-variant-alternates" />
-		<KeyWord name="font-variant-caps" />
-		<KeyWord name="font-variant-east-asian" />
-		<KeyWord name="font-variant-ligatures" />
-		<KeyWord name="font-variant-numeric" />
-		<KeyWord name="font-variant-position" />
-		<KeyWord name="font-weight" />
-		<KeyWord name="footnote-display" />
-		<KeyWord name="footnote-policy" />
-		<KeyWord name="force-end" />
+		<KeyWord name="flex" func="yes">
+			<Overload retVal="" descr="Specifies how a flex item will grow or shrink so as to fit the space available in its flex container. This is a shorthand property that sets flex-grow, flex-shrink, and flex-basis.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="flex-basis" func="yes">
+			<Overload retVal="" descr="Specifies the initial main size of a flex item. This property determines the size of the content-box unless specified otherwise using box-sizing.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="flex-direction" func="yes">
+			<Overload retVal="" descr="Specifies how flex items are placed in the flex container defining the main axis and the direction (normal or reversed).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="flex-flow" func="yes">
+			<Overload retVal="" descr="Is a shorthand property for flex-direction and flex-wrap individual properties.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="flex-grow" func="yes">
+			<Overload retVal="" descr="Specifies the flex grow factor of a flex item. It specifies how much of the available space in the flex container should be assigned to that item. If all sibling items have the same flex grow factor, then all items will receive the same share of available space, otherwise it is distributed according to the ratio defined by the different flex grow factors.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="flex-shrink" func="yes">
+			<Overload retVal="" descr="Specifies the flex shrink factor of a flex item. Flex items will shrink to fill the container according to the flex-shrink number, when the default size of flex items is larger than the flex container.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="flex-wrap" func="yes">
+			<Overload retVal="" descr="Specifies whether flex items are forced into a single line or can be wrapped onto multiple lines. If wrapping is allowed, this property also enables you to control the direction in which lines are stacked.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="float" func="yes">
+			<Overload retVal="" descr="Specifies that an element should be placed along the left or right side of its container, allowing text and inline elements to wrap around it. The element is removed from the normal flow of the web page, though still remaining a part of the flow (in contrast to absolute positioning).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font" func="yes">
+			<Overload retVal="" descr="Is either a shorthand property for setting font-style, font-variant, font-weight, font-size, line-height, and font-family; or a way to set the element's font to a system font, using specific keywords.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font-family" func="yes">
+			<Overload retVal="" descr="Specifies a prioritized list of one or more font family names and/or generic family names for the selected element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font-feature-settings" func="yes">
+			<Overload retVal="" descr="Controls advanced typographic features in OpenType fonts.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font-kerning" func="yes">
+			<Overload retVal="" descr="Sets the use of the kerning information stored in a font.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font-language-override" func="yes">
+			<Overload retVal="" descr="Controls the use of language-specific glyphs in a typeface.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font-optical-sizing" func="yes">
+			<Overload retVal="" descr="Allows developers to control whether browsers render text with slightly differing visual representations to optimize viewing at different sizes, or not. This only works for fonts that have an optical size variation axis.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font-size" func="yes">
+			<Overload retVal="" descr="Specifies the size of the font. Setting this property may change the size of other items, too, since it is used to compute the value of em, ex, and various other relative length units.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font-size-adjust" func="yes">
+			<Overload retVal="" descr="Sets how the font size should be chosen based on the height of lowercase rather than capital letters.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font-stretch" func="yes">
+			<Overload retVal="" descr="Selects a normal, condensed, or expanded face from a font.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font-style" func="yes">
+			<Overload retVal="" descr="Allows authors to specify font styles for the fonts specified in the @font-face rule.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font-style" func="yes">
+			<Overload retVal="" descr="Specifies whether a font should be styled with a normal, italic, or oblique face from its font-family.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font-synthesis" func="yes">
+			<Overload retVal="" descr="Controls which missing typefaces, bold or italic, may be synthesized by the browser.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font-variant" func="yes">
+			<Overload retVal="" descr="Is a shorthand for the longhand properties font-variant-caps, font-variant-numeric, font-variant-alternates, font-variant-ligatures, and font-variant-east-asian. You can also set the CSS Level 2 (Revision 1) values of font-variant, (that is, normal or small-caps), by using the font shorthand.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font-variant-alternates" func="yes">
+			<Overload retVal="" descr="Controls the usage of alternate glyphs. These alternate glyphs may be referenced by alternative names defined in @font-feature-values.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font-variant-caps" func="yes">
+			<Overload retVal="" descr="Controls the usage of alternate glyphs for capital letters.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font-variant-east-asian" func="yes">
+			<Overload retVal="" descr="Controls the usage of alternate glyphs for East Asian scripts, like Japanese and Chinese.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font-variant-ligatures" func="yes">
+			<Overload retVal="" descr="Controls which ligatures and contextual forms are used in textual content of the elements it applies to. This leads to more harmonized forms in the resulting text.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font-variant-numeric" func="yes">
+			<Overload retVal="" descr="Controls the usage of alternate glyphs for numbers, fractions, and ordinal markers.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font-variant-position" func="yes">
+			<Overload retVal="" descr="Controls the use of alternate, smaller glyphs that are positioned as superscript or subscript.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font-variation-settings" func="yes">
+			<Overload retVal="" descr="Allows authors to specify low-level OpenType or TrueType font variations in the @font-face rule.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="font-weight" func="yes">
+			<Overload retVal="" descr="Specifies the weight (or boldness) of the font. The font weights available to you will depend on the font-family you are using. Some fonts are only available in normal and bold.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="format()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="forwards" />
-		<KeyWord name="fr" />
-		<KeyWord name="from-image" />
-		<KeyWord name="full-width" />
-		<KeyWord name="future" />
-		<KeyWord name="geometricPrecision" />
-		<KeyWord name="georgian" />
-		<KeyWord name="glyph-orientation-vertical" />
-		<KeyWord name="grad" />
-		<KeyWord name="grammar-error" />
+		<KeyWord name="fr" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="frames()" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="gap" func="yes">
+			<Overload retVal="" descr="Specifies the gaps (gutters) between rows and columns. It is a shorthand for row-gap and column-gap.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="grad" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="grayscale()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Converts the input image to grayscale. Its result is a filter-function.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="grid" />
-		<KeyWord name="grid-area" />
-		<KeyWord name="grid-auto-columns" />
-		<KeyWord name="grid-auto-flow" />
-		<KeyWord name="grid-auto-rows" />
-		<KeyWord name="grid-column" />
-		<KeyWord name="grid-column-end" />
-		<KeyWord name="grid-column-gap" />
-		<KeyWord name="grid-column-start" />
-		<KeyWord name="grid-gap" />
-		<KeyWord name="grid-row" />
-		<KeyWord name="grid-row-end" />
-		<KeyWord name="grid-row-gap" />
-		<KeyWord name="grid-row-start" />
-		<KeyWord name="grid-template" />
-		<KeyWord name="grid-template-areas" />
-		<KeyWord name="grid-template-columns" />
-		<KeyWord name="grid-template-rows" />
-		<KeyWord name="groove" />
-		<KeyWord name="hanging" />
-		<KeyWord name="hanging each-line" />
-		<KeyWord name="hanging-punctuation" />
-		<KeyWord name="hard-light" />
-		<KeyWord name="has" />
-		<KeyWord name="height" />
-		<KeyWord name="help" />
-		<KeyWord name="hidden" />
-		<KeyWord name="hide" />
-		<KeyWord name="horizontal" />
-		<KeyWord name="horizontal-tb" />
-		<KeyWord name="hover" />
+		<KeyWord name="grid" func="yes">
+			<Overload retVal="" descr="Is a shorthand property that sets all of the explicit grid properties (grid-template-rows, grid-template-columns, and grid-template-areas), and all the implicit grid properties (grid-auto-rows, grid-auto-columns, and grid-auto-flow), in a single declaration.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="grid-area" func="yes">
+			<Overload retVal="" descr="Is a shorthand property for grid-row-start, grid-column-start, grid-row-end and grid-column-end, specifying a grid item’s size and location within the grid row by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the edges of its grid area.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="grid-auto-columns" func="yes">
+			<Overload retVal="" descr="Specifies the size of an implicitly-created grid column track.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="grid-auto-flow" func="yes">
+			<Overload retVal="" descr="Controls how the auto-placement algorithm works, specifying exactly how auto-placed items get flowed into the grid.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="grid-auto-rows" func="yes">
+			<Overload retVal="" descr="Specifies the size of an implicitly-created grid row track.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="grid-column" func="yes">
+			<Overload retVal="" descr="Is a shorthand property for grid-column-start and grid-column-end specifying a grid item's size and location within the grid column by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-start and inline-end edge of its grid area.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="grid-column-end" func="yes">
+			<Overload retVal="" descr="Specifies a grid item’s end position within the grid column by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the block-end edge of its grid area.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="grid-column-start" func="yes">
+			<Overload retVal="" descr="Specifies a grid item’s start position within the grid column by contributing a line, a span, or nothing (automatic) to its grid placement. This start position defines the block-start edge of the grid area.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="grid-row" func="yes">
+			<Overload retVal="" descr="Is a shorthand property for grid-row-start and grid-row-end specifying a grid item’s size and location within the grid row by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-start and inline-end edge of its grid area.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="grid-row-end" func="yes">
+			<Overload retVal="" descr="Specifies a grid item’s end position within the grid row by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-end edge of its grid area.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="grid-row-start" func="yes">
+			<Overload retVal="" descr="Specifies a grid item’s start position within the grid row by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-start edge of its grid area.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="grid-template" func="yes">
+			<Overload retVal="" descr="Is a shorthand property for defining grid columns, rows, and areas.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="grid-template-areas" func="yes">
+			<Overload retVal="" descr="Specifies named grid areas.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="grid-template-columns" func="yes">
+			<Overload retVal="" descr="Defines the line names and track sizing functions of the grid columns.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="grid-template-rows" func="yes">
+			<Overload retVal="" descr="Defines the line names and track sizing functions of the grid rows.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hanging-punctuation" func="yes">
+			<Overload retVal="" descr="Specifies whether a punctuation mark should hang at the start or end of a line of text.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="height" func="yes">
+			<Overload retVal="" descr="Is a shorthand descriptor for setting both min-height and max-height of the viewport. by providing one viewport length value will set both, the minimum height and the maximum height, to the value provided.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="height" func="yes">
+			<Overload retVal="" descr="Specifies the height of an element. By default, the property defines the height of the content area. If box-sizing is set to border-box, however, it instead determines the height of the border area.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="hsl()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="hsla()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="hue" />
 		<KeyWord name="hue-rotate()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Rotates the hue of an element and its contents. Its result is a filter-function.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="hyphenate-character" />
-		<KeyWord name="hyphenate-limit-chars" />
-		<KeyWord name="hyphenate-limit-last" />
-		<KeyWord name="hyphenate-limit-lines" />
-		<KeyWord name="hyphenate-limit-zone" />
-		<KeyWord name="hyphens" />
-		<KeyWord name="hz" />
-		<KeyWord name="icon" />
+		<KeyWord name="hyphens" func="yes">
+			<Overload retVal="" descr="Specifies how words should be hyphenated when text wraps across multiple lines. You can prevent hyphenation entirely, use hyphenation in manually-specified points within the text, or let the browser automatically insert hyphens where appropriate.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Hz" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="image()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="image-orientation" />
-		<KeyWord name="image-rendering" />
-		<KeyWord name="image-resolution" />
+		<KeyWord name="image-orientation" func="yes">
+			<Overload retVal="" descr="Specifies a layout-independent correction to the orientation of an image.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="image-rendering" func="yes">
+			<Overload retVal="" descr="Indicates the algorithm to use when scaling images. When applied to an element, the property applies to the element itself, to any images supplied in its other properties, and to its descendant elements.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="image-set()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="ime-mode" />
-		<KeyWord name="import" />
-		<KeyWord name="in" />
-		<KeyWord name="in-range" />
-		<KeyWord name="indeterminate" />
-		<KeyWord name="infinite" />
-		<KeyWord name="inherit" />
-		<KeyWord name="initial" />
-		<KeyWord name="initial-letter" />
-		<KeyWord name="initial-letter-align" />
-		<KeyWord name="initial-letter-wrap" />
-		<KeyWord name="ink" />
-		<KeyWord name="inline" />
-		<KeyWord name="inline-block" />
-		<KeyWord name="inline-flex" />
-		<KeyWord name="inline-size" />
-		<KeyWord name="inline-table" />
-		<KeyWord name="inset" />
+		<KeyWord name="in" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="inherit" func="yes">
+			<Overload retVal="" descr="From its parent element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="initial" func="yes">
+			<Overload retVal="" descr="To an element. It can be applied to any CSS property.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="inline-size" func="yes">
+			<Overload retVal="" descr="Defines the horizontal or vertical size of an element's block, depending on its writing mode. It corresponds to either the width or the height property, depending on the value of writing-mode.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="inset()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="inside" />
-		<KeyWord name="inter-word" />
-		<KeyWord name="invalid" />
-		<KeyWord name="invert" />
 		<KeyWord name="invert()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Inverts the color samples in the input image. Its result is a filter-function.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="isolate" />
-		<KeyWord name="isolation" />
-		<KeyWord name="italic" />
-		<KeyWord name="justify" />
-		<KeyWord name="justify-content" />
-		<KeyWord name="justify-items" />
-		<KeyWord name="justify-self" />
-		<KeyWord name="keep-all" />
-		<KeyWord name="keyframes" />
-		<KeyWord name="khz" />
-		<KeyWord name="lang" />
-		<KeyWord name="large" />
-		<KeyWord name="larger" />
-		<KeyWord name="last" />
-		<KeyWord name="last-child" />
-		<KeyWord name="last-of-type" />
-		<KeyWord name="left" />
-		<KeyWord name="letter-spacing" />
-		<KeyWord name="lighten" />
-		<KeyWord name="lighter" />
-		<KeyWord name="lighting-color" />
-		<KeyWord name="line-break" />
-		<KeyWord name="line-grid" />
-		<KeyWord name="line-height" />
-		<KeyWord name="line-snap" />
-		<KeyWord name="line-through" />
-		<KeyWord name="linear" />
+		<KeyWord name="isolation" func="yes">
+			<Overload retVal="" descr="Determines whether an element must create a new stacking context.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="justify-content" func="yes">
+			<Overload retVal="" descr="Defines how the browser distributes space between and around content items along the main-axis of their container.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="justify-items" func="yes">
+			<Overload retVal="" descr="Defines the default justify-self for all items of the box, giving them all a default way of justifying each box along the appropriate axis.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="justify-self" func="yes">
+			<Overload retVal="" descr="Defines the way of justifying a box inside its alignment container along the appropriate axis.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="kHz" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="leader()" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="left" func="yes">
+			<Overload retVal="" descr="Participates in specifying the horizontal position of a positioned element. It has no effect on non-positioned elements.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="letter-spacing" func="yes">
+			<Overload retVal="" descr="Sets the spacing behavior between text characters.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="line-break" func="yes">
+			<Overload retVal="" descr="Is used to specify how (or if) to break lines when working with punctuation and symbols. This only affects text in Chinese, Japanese, or Korean (CJK).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="line-height" func="yes">
+			<Overload retVal="" descr="Sets the amount of space used for lines, such as in text. On block-level elements, it specifies the minimum height of line boxes within the element. On non-replaced inline elements, it specifies the height that is used to calculate line box height.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="linear-gradient()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Creates an image consisting of a progressive transition between two or more colors along a straight line. Its result is an object of the gradient data type, which is a special kind of image.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="link" />
-		<KeyWord name="list-item" />
-		<KeyWord name="list-style" />
-		<KeyWord name="list-style-image" />
-		<KeyWord name="list-style-position" />
-		<KeyWord name="list-style-type" />
-		<KeyWord name="local" />
+		<KeyWord name="list-style" func="yes">
+			<Overload retVal="" descr="Is a shorthand for setting the individual values that define how a list is displayed: list-style-type, list-style-image, and list-style-position.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="list-style-image" func="yes">
+			<Overload retVal="" descr="Specifies an image to be used as the list item marker. It is often more convenient to use the shorthand list-style.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="list-style-position" func="yes">
+			<Overload retVal="" descr="Specifies the position of the ::marker relative to a list item.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="list-style-type" func="yes">
+			<Overload retVal="" descr="Specifies the appearance of a list item element.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="local()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="loose" />
-		<KeyWord name="lower-alpha" />
-		<KeyWord name="lower-greek" />
-		<KeyWord name="lower-latin" />
-		<KeyWord name="lower-roman" />
-		<KeyWord name="lowercase" />
-		<KeyWord name="ltr" />
-		<KeyWord name="luminance" />
-		<KeyWord name="luminosity" />
-		<KeyWord name="mandatory" />
-		<KeyWord name="manipulation" />
-		<KeyWord name="manual" />
-		<KeyWord name="margin" />
-		<KeyWord name="margin-block-end" />
-		<KeyWord name="margin-block-start" />
-		<KeyWord name="margin-bottom" />
-		<KeyWord name="margin-box" />
-		<KeyWord name="margin-inline-end" />
-		<KeyWord name="margin-inline-start" />
-		<KeyWord name="margin-left" />
-		<KeyWord name="margin-right" />
-		<KeyWord name="margin-top" />
-		<KeyWord name="marker" />
-		<KeyWord name="marker-end" />
-		<KeyWord name="marker-knockout-left" />
-		<KeyWord name="marker-knockout-right" />
-		<KeyWord name="marker-mid" />
-		<KeyWord name="marker-pattern" />
-		<KeyWord name="marker-segment" />
-		<KeyWord name="marker-side" />
-		<KeyWord name="marker-start" />
-		<KeyWord name="marquee-direction" />
-		<KeyWord name="marquee-loop" />
-		<KeyWord name="marquee-speed" />
-		<KeyWord name="marquee-style" />
-		<KeyWord name="mask" />
-		<KeyWord name="mask-border" />
-		<KeyWord name="mask-border-mode" />
-		<KeyWord name="mask-border-outset" />
-		<KeyWord name="mask-border-repeat" />
-		<KeyWord name="mask-border-slice" />
-		<KeyWord name="mask-border-source" />
-		<KeyWord name="mask-border-width" />
-		<KeyWord name="mask-clip" />
-		<KeyWord name="mask-composite" />
-		<KeyWord name="mask-image" />
-		<KeyWord name="mask-mode" />
-		<KeyWord name="mask-origin" />
-		<KeyWord name="mask-position" />
-		<KeyWord name="mask-repeat" />
-		<KeyWord name="mask-size" />
-		<KeyWord name="mask-type" />
-		<KeyWord name="match-parent" />
-		<KeyWord name="matches" />
+		<KeyWord name="margin" func="yes">
+			<Overload retVal="" descr="Sets the margin area on all four sides of an element. It is a shorthand for setting all individual margins at once: margin-top, margin-right, margin-bottom, and margin-left.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="margin-block-end" func="yes">
+			<Overload retVal="" descr="Defines the logical block end margin of an element, which maps to a physical margin depending on the element's writing mode, directionality, and text orientation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="margin-block-start" func="yes">
+			<Overload retVal="" descr="Defines the logical block start margin of an element, which maps to a physical margin depending on the element's writing mode, directionality, and text orientation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="margin-bottom" func="yes">
+			<Overload retVal="" descr="Sets the margin area on the bottom of an element. A positive value will place it farther than normal from its neighbors, while a negative value will place it closer.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="margin-inline-end" func="yes">
+			<Overload retVal="" descr="Defines the logical inline end margin of an element, which maps to a physical margin depending on the element's writing mode, directionality, and text orientation. In other words, it corresponds to the margin-top, margin-right, margin-bottom or margin-left property depending on the values defined for writing-mode, direction, and text-orientation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="margin-inline-start" func="yes">
+			<Overload retVal="" descr="Defines the logical inline start margin of an element, which maps to a physical margin depending on the element's writing mode, directionality, and text orientation. It corresponds to the margin-top, margin-right, margin-bottom, or margin-left property depending on the values defined for writing-mode, direction, and text-orientation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="margin-left" func="yes">
+			<Overload retVal="" descr="Sets the margin area on the left side of an element. A positive value will place it farther than normal from its neighbors, while a negative value will place it closer.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="margin-right" func="yes">
+			<Overload retVal="" descr="Sets the margin area on the right side of an element. A positive value will place it farther than normal from its neighbors, while a negative value will place it closer.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="margin-top" func="yes">
+			<Overload retVal="" descr="Sets the margin area on the top of an element. A positive value will place it farther than normal from its neighbors, while a negative value will place it closer.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mask" func="yes">
+			<Overload retVal="" descr="Alters the visibility of an element by either partially or fully hiding it. This is accomplished by either masking or clipping the image at specific points.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mask-clip" func="yes">
+			<Overload retVal="" descr="Determines the area, which is affected by a mask. The painted content of an element must be restricted to this area.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mask-composite" func="yes">
+			<Overload retVal="" descr="Represents a compositing operation used on the current mask layer with the mask layers below it.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mask-image" func="yes">
+			<Overload retVal="" descr="Sets the image that is used as mask layer for an element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mask-mode" func="yes">
+			<Overload retVal="" descr="Determines whether the mask reference defined by mask-image is treated as a luminance or alpha mask.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mask-origin" func="yes">
+			<Overload retVal="" descr="Determines the origin of a mask.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mask-position" func="yes">
+			<Overload retVal="" descr="Sets the initial position, relative to the mask position layer defined by mask-origin, for each defined mask image.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mask-repeat" func="yes">
+			<Overload retVal="" descr="Defines how mask images are repeated. A mask image can be repeated along the horizontal axis, the vertical axis, both axes, or not repeated at all.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mask-size" func="yes">
+			<Overload retVal="" descr="Specifies the sizes of the mask images. The size of the image can be fully or partially constrained in order to preserve its intrinsic ratio.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mask-type" func="yes">
+			<Overload retVal="" descr="Determines whether the mask defined by an SVG mask element is used as a luminance or an alpha mask. It applies to the mask element itself.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="matrix()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Defines a homogeneous 2D transformation matrix. Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="matrix3d()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Defines a 3D transformation as a 4x4 homogeneous matrix. Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="max-block-size" />
-		<KeyWord name="max-height" />
-		<KeyWord name="max-inline-size" />
-		<KeyWord name="max-lines" />
-		<KeyWord name="max-width" />
-		<KeyWord name="max-zoom" />
-		<KeyWord name="media" />
-		<KeyWord name="medium" />
-		<KeyWord name="middle" />
-		<KeyWord name="min-block-size" />
-		<KeyWord name="min-height" />
-		<KeyWord name="min-inline-size" />
-		<KeyWord name="min-width" />
-		<KeyWord name="min-zoom" />
+		<KeyWord name="max-height" func="yes">
+			<Overload retVal="" descr="Specifies the maximum height of the viewport of a document defined via the @viewport at-rule.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="max-height" func="yes">
+			<Overload retVal="" descr="Sets the maximum height of an element. It prevents the used value of the height property from becoming larger than the value specified for max-height.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="max-width" func="yes">
+			<Overload retVal="" descr="Specifies the maximum width of the viewport of a document defined via the @viewport at-rule.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="max-width" func="yes">
+			<Overload retVal="" descr="Sets the maximum width of an element. It prevents the used value of the width property from becoming larger than the value specified by max-width.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="max-zoom" func="yes">
+			<Overload retVal="" descr="Sets the maximum zoom factor of a document defined by the @viewport at-rule. The browser will not zoom in any further than this, whether automatically or at the user's request.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="min-block-size" func="yes">
+			<Overload retVal="" descr="Defines the minimum horizontal or vertical size of an element's block, depending on its writing mode. It corresponds to either the min-width or the min-height property, depending on the value of writing-mode.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="min-height" func="yes">
+			<Overload retVal="" descr="Specifies the minimum height of the viewport of a document defined via the @viewport at-rule.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="min-height" func="yes">
+			<Overload retVal="" descr="Sets the minimum height of an element. It prevents the used value of the height property from becoming smaller than the value specified for min-height.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="min-inline-size" func="yes">
+			<Overload retVal="" descr="Defines the horizontal or vertical minimal size of an element's block, depending on its writing mode. It corresponds to either the min-width or the min-height property, depending on the value of writing-mode.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="min-width" func="yes">
+			<Overload retVal="" descr="Specifies the minimum width of the viewport of a document defined via @viewport.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="min-width" func="yes">
+			<Overload retVal="" descr="Sets the minimum width of an element. It prevents the used value of the width property from becoming smaller than the value specified for min-width.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="min-zoom" func="yes">
+			<Overload retVal="" descr="Sets the minimum zoom factor of a document defined by the @viewport at-rule. The browser will not zoom out any further than this, whether automatically or at the user's request.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="minmax()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Defines a size range greater than or equal to min and less than or equal to max. It is used with CSS Grids.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="mix-blend-mode" />
-		<KeyWord name="mixed" />
-		<KeyWord name="mm" />
-		<KeyWord name="monochrome" />
-		<KeyWord name="motion" />
-		<KeyWord name="motion-offset" />
-		<KeyWord name="motion-path" />
-		<KeyWord name="motion-rotation" />
-		<KeyWord name="move" />
-		<KeyWord name="ms" />
-		<KeyWord name="multiply" />
-		<KeyWord name="n-resize" />
-		<KeyWord name="namespace" />
-		<KeyWord name="nav-down" />
-		<KeyWord name="nav-left" />
-		<KeyWord name="nav-right" />
-		<KeyWord name="nav-up" />
-		<KeyWord name="ne-resize" />
-		<KeyWord name="negative" />
-		<KeyWord name="nesw-resize" />
-		<KeyWord name="no-close-quote" />
-		<KeyWord name="no-drop" />
-		<KeyWord name="no-open-quote" />
-		<KeyWord name="no-repeat" />
-		<KeyWord name="none" />
-		<KeyWord name="normal" />
-		<KeyWord name="not" />
-		<KeyWord name="not-allowed" />
-		<KeyWord name="nowrap" />
-		<KeyWord name="ns-resize" />
-		<KeyWord name="nth-child" />
-		<KeyWord name="nth-column" />
-		<KeyWord name="nth-last-child" />
-		<KeyWord name="nth-last-column" />
-		<KeyWord name="nth-last-of-type" />
-		<KeyWord name="nth-of-type" />
-		<KeyWord name="nw-resize" />
-		<KeyWord name="nwse-resize" />
-		<KeyWord name="object-fit" />
-		<KeyWord name="object-position" />
-		<KeyWord name="objects" />
-		<KeyWord name="oblique" />
-		<KeyWord name="offset-after" />
-		<KeyWord name="offset-before" />
-		<KeyWord name="offset-block-end" />
-		<KeyWord name="offset-block-start" />
-		<KeyWord name="offset-end" />
-		<KeyWord name="offset-inline-end" />
-		<KeyWord name="offset-inline-start" />
-		<KeyWord name="offset-start" />
-		<KeyWord name="only-child" />
-		<KeyWord name="only-of-type" />
-		<KeyWord name="opacity" />
+		<KeyWord name="mix-blend-mode" func="yes">
+			<Overload retVal="" descr="Describes how an element's content should blend with the content of the element's direct parent and the element's background.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mm" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ms" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="negative" func="yes">
+			<Overload retVal="" descr="Lets you alter the representations of negative counter values, by providing a way to specify symbols to be appended or prepended to the counter representation when the value is negative.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="object-fit" func="yes">
+			<Overload retVal="" descr="Specifies how the contents of a replaced element, such as an img or video, should be resized to fit its container.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="object-position" func="yes">
+			<Overload retVal="" descr="Specifies the alignment of the selected replaced element's contents within the element's box.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="offset-block-end" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="offset-block-start" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="offset-inline-end" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="offset-inline-start" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="opacity" func="yes">
+			<Overload retVal="" descr="Specifies the level of transparency of an element, that is, the degree to which the content behind the element is visible.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="opacity()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Applies transparency to the samples in the input image. Its result is a filter-function.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="open" />
-		<KeyWord name="open-quote" />
-		<KeyWord name="optimizeLegibility" />
-		<KeyWord name="optimizeSpeed" />
-		<KeyWord name="optional" />
-		<KeyWord name="order" />
-		<KeyWord name="orientation" />
+		<KeyWord name="order" func="yes">
+			<Overload retVal="" descr="Specifies the order used to lay out a flex or grid item in its flex or grid container. Items within the same container are laid out in ascending order according to their order values. Elements with the same order value are laid out in the order in which they appear in the source code.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="orientation" func="yes">
+			<Overload retVal="" descr="Controls the orientation of a document defined by @viewport.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="ornaments()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="orphans" />
-		<KeyWord name="out-of-range" />
-		<KeyWord name="outline" />
-		<KeyWord name="outline-color" />
-		<KeyWord name="outline-offset" />
-		<KeyWord name="outline-style" />
-		<KeyWord name="outline-width" />
-		<KeyWord name="outset" />
-		<KeyWord name="outside" />
-		<KeyWord name="over" />
-		<KeyWord name="overflow" />
-		<KeyWord name="overflow-block" />
-		<KeyWord name="overflow-inline" />
-		<KeyWord name="overflow-style" />
-		<KeyWord name="overflow-wrap" />
-		<KeyWord name="overflow-x" />
-		<KeyWord name="overflow-y" />
-		<KeyWord name="overlay" />
-		<KeyWord name="overline" />
-		<KeyWord name="pad" />
-		<KeyWord name="padding" />
-		<KeyWord name="padding-block-end" />
-		<KeyWord name="padding-block-start" />
-		<KeyWord name="padding-bottom" />
-		<KeyWord name="padding-box" />
-		<KeyWord name="padding-inline-end" />
-		<KeyWord name="padding-inline-start" />
-		<KeyWord name="padding-left" />
-		<KeyWord name="padding-right" />
-		<KeyWord name="padding-top" />
-		<KeyWord name="page" />
-		<KeyWord name="page-break-after" />
-		<KeyWord name="page-break-before" />
-		<KeyWord name="page-break-inside" />
-		<KeyWord name="pan-down" />
-		<KeyWord name="pan-left" />
-		<KeyWord name="pan-right" />
-		<KeyWord name="pan-up" />
-		<KeyWord name="pan-x" />
-		<KeyWord name="pan-y" />
-		<KeyWord name="past" />
-		<KeyWord name="pause" />
-		<KeyWord name="pause-after" />
-		<KeyWord name="pause-before" />
-		<KeyWord name="paused" />
-		<KeyWord name="pc" />
-		<KeyWord name="perspective" />
+		<KeyWord name="orphans" func="yes">
+			<Overload retVal="" descr="Specifies the minimum number of lines in a block container that must be shown at the bottom of a page, region, or column. This property is normally used to control how breaks occur.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="outline" func="yes">
+			<Overload retVal="" descr="Is a shorthand to set various outline properties in a single declaration: outline-style, outline-width, and outline-color.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="outline-color" func="yes">
+			<Overload retVal="" descr="Sets the color of an element's outline.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="outline-offset" func="yes">
+			<Overload retVal="" descr="Sets the amount of space between an outline and the edge or border of an element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="outline-style" func="yes">
+			<Overload retVal="" descr="Sets the style of an element's outline. An outline is a line that is drawn around an element, outside the border.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="outline-width" func="yes">
+			<Overload retVal="" descr="Sets the thickness of an element's outline. An outline is a line that is drawn around an element, outside the border.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="overflow" func="yes">
+			<Overload retVal="" descr="Sets what to do when an element's content is too big to fit in its block formatting context. It is a shorthand for overflow-x and overflow-y.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="overflow-wrap" func="yes">
+			<Overload retVal="" descr="Specifies whether or not the browser should insert line breaks within words to prevent text from overflowing its content box.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="overflow-x" func="yes">
+			<Overload retVal="" descr="Specifies whether to clip content, render a scroll bar, or display overflow content of a block-level element, when it overflows at the left and right edges.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="overflow-y" func="yes">
+			<Overload retVal="" descr="Specifies whether to clip content, render a scroll bar, or display overflow content of a block-level element, when it overflows at the top and bottom edges.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pad" func="yes">
+			<Overload retVal="" descr="Can be used with custom counter style definitions when you need the marker representations to have a minimum length. If a marker representation is smaller than the specified pad length, then the marker will be padded with the specified pad symbol. Marker representations longer than the pad length are constructed as normal.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="padding" func="yes">
+			<Overload retVal="" descr="Sets the padding area on all four sides of an element. It is a shorthand for setting all individual paddings at once: padding-top, padding-right, padding-bottom, and padding-left.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="padding-block-end" func="yes">
+			<Overload retVal="" descr="Defines the logical block end padding of an element, which maps to a physical padding depending on the element's writing mode, directionality, and text orientation. It corresponds to the padding-top, padding-right, padding-bottom, or padding-left property depending on the values defined for writing-mode, direction, and text-orientation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="padding-block-start" func="yes">
+			<Overload retVal="" descr="Defines the logical block start padding of an element, which maps to a physical padding depending on the element's writing mode, directionality, and text orientation. It corresponds to the padding-top, padding-right, padding-bottom, or padding-left property depending on the values defined for writing-mode, direction, and text-orientation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="padding-bottom" func="yes">
+			<Overload retVal="" descr="Sets the height of the padding area on the bottom of an element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="padding-inline-end" func="yes">
+			<Overload retVal="" descr="Defines the logical inline end padding of an element, which maps to a physical padding depending on the element's writing mode, directionality, and text orientation. It corresponds to the padding-top, padding-right, padding-bottom, or padding-left property depending on the values defined for writing-mode, direction, and text-orientation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="padding-inline-start" func="yes">
+			<Overload retVal="" descr="Defines the logical inline start padding of an element, which maps to a physical padding depending on the element's writing mode, directionality, and text orientation. It corresponds to the padding-top, padding-right, padding-bottom, or padding-left property depending on the values defined for writing-mode, direction, and text-orientation.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="padding-left" func="yes">
+			<Overload retVal="" descr="Sets the width of the padding area on the left side of an element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="padding-right" func="yes">
+			<Overload retVal="" descr="Sets the width of the padding area on the right side of an element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="padding-top" func="yes">
+			<Overload retVal="" descr="Sets the height of the padding area on the top of an element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="page-break-after" func="yes">
+			<Overload retVal="" descr="Adjusts page breaks after the current element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="page-break-before" func="yes">
+			<Overload retVal="" descr="Adjusts page breaks before the current element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="page-break-inside" func="yes">
+			<Overload retVal="" descr="Adjusts page breaks inside the current element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pc" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="perspective" func="yes">
+			<Overload retVal="" descr="Determines the distance between the z=0 plane and the user in order to give a 3D-positioned element some perspective. Each 3D element with z0 becomes larger; each 3D-element with z0 becomes smaller. The strength of the effect is determined by the value of this property.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="perspective()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Defines a transformation that sets the distance between the user and the z=0 plane. Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="perspective-origin" />
-		<KeyWord name="petite-caps" />
-		<KeyWord name="pitch" />
-		<KeyWord name="pitch-range" />
-		<KeyWord name="pixelated" />
-		<KeyWord name="placeholder" />
-		<KeyWord name="placeholder-shown" />
-		<KeyWord name="play-during" />
-		<KeyWord name="pointer" />
-		<KeyWord name="pointer-events" />
+		<KeyWord name="perspective-origin" func="yes">
+			<Overload retVal="" descr="Determines the position at which the viewer is looking. It is used as the vanishing point by the perspective property.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="place-content" func="yes">
+			<Overload retVal="" descr="Sets both the align-content and justify-content properties.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pointer-events" func="yes">
+			<Overload retVal="" descr="Specifies under what circumstances (if any) a particular graphic element can become the target of mouse events.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="polygon()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="position" />
-		<KeyWord name="pre" />
-		<KeyWord name="pre-line" />
-		<KeyWord name="pre-wrap" />
-		<KeyWord name="prefix" />
-		<KeyWord name="presentation-level" />
-		<KeyWord name="preserve-3d" />
-		<KeyWord name="progress" />
-		<KeyWord name="proximity" />
-		<KeyWord name="pt" />
-		<KeyWord name="px" />
-		<KeyWord name="quotes" />
-		<KeyWord name="rad" />
+		<KeyWord name="position" func="yes">
+			<Overload retVal="" descr="Specifies how an element is positioned in a document. The top, right, bottom, and left properties determine the final location of positioned elements.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="prefix" func="yes">
+			<Overload retVal="" descr="Of the @counter-style rule specifies content that will be prepended to the marker representation. If not specified, the default value will be &quot;&quot; (an empty string).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pt" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="px" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Q" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="quotes" func="yes">
+			<Overload retVal="" descr="Sets how quotation marks appear.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rad" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="radial-gradient()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Creates an image consisting of a progressive transition between two or more colors that radiate from an origin. Its shape may be a circle or an ellipse. The function's result is an object of the gradient data type, which is a special kind of image.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="range" />
-		<KeyWord name="read-only" />
-		<KeyWord name="read-write" />
+		<KeyWord name="range" func="yes">
+			<Overload retVal="" descr="Lets the author specify a range of counter values over which the style is applied. If a counter value is outside the specified range, then the fallback style will be used to construct the representation of that marker.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="rect()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="region-fragment" />
-		<KeyWord name="relative" />
-		<KeyWord name="rem" />
-		<KeyWord name="repeat" />
+		<KeyWord name="rem" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="repeat()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Represents a repeated fragment of the track list, allowing a large number of columns or rows that exhibit a recurring pattern to be written in a more compact form.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="repeat-x" />
-		<KeyWord name="repeat-y" />
 		<KeyWord name="repeating-linear-gradient()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Creates an image consisting of repeating linear gradients. It is similar to linear-gradient() and takes the same arguments, but it repeats the color stops infinitely in all directions so as to cover its entire container. The function's result is an object of the gradient data type, which is a special kind of image.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="repeating-radial-gradient()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Creates an image consisting of repeating gradients that radiate from an origin. It is similar to radial-gradient() and takes the same arguments, but it repeats the color stops infinitely in all directions so as to cover its entire container. The function's result is an object of the gradient data type, which is a special kind of image.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="required" />
-		<KeyWord name="resize" />
-		<KeyWord name="resolution" />
-		<KeyWord name="rest" />
-		<KeyWord name="rest-after" />
-		<KeyWord name="rest-before" />
-		<KeyWord name="reverse" />
-		<KeyWord name="revert" />
+		<KeyWord name="resize" func="yes">
+			<Overload retVal="" descr="Sets whether an element is resizable, and if so, in which direction(s).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="revert" func="yes">
+			<Overload retVal="" descr="Takes on the value it would have had if there were no styles in the current style origin (author, user, or user-agent).">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="rgb()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="rgba()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="richness" />
-		<KeyWord name="ridge" />
-		<KeyWord name="right" />
-		<KeyWord name="root" />
+		<KeyWord name="right" func="yes">
+			<Overload retVal="" descr="Participates in specifying the horizontal position of a positioned element. It has no effect on non-positioned elements.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rotate" func="yes">
+			<Overload retVal="" descr="Allows you to specify rotation transforms individually and independantly of the transform property. This maps better to typical user interface usage, and saves having to remember the exact order of transform functions to specify in the transform value.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="rotate()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Defines a transformation that rotates an element around a fixed point on the 2D plane, without deforming it. Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="rotate3d()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Defines a transformation that rotates an element around a fixed axis in 3D space, without deforming it. Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="rotateX()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Defines a transformation that rotates an element around the abscissa (horizontal axis) without deforming it. Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="rotateY()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Defines a transformation that rotates an element around the ordinate (vertical axis) without deforming it. Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="rotateZ()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Defines a transformation that rotates an element around the z-axis without deforming it. Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="rotation" />
-		<KeyWord name="rotation-point" />
-		<KeyWord name="round" />
-		<KeyWord name="row" />
-		<KeyWord name="row-resize" />
-		<KeyWord name="row-reverse" />
-		<KeyWord name="rtl" />
-		<KeyWord name="ruby-align" />
-		<KeyWord name="ruby-merge" />
-		<KeyWord name="ruby-position" />
-		<KeyWord name="run-in" />
-		<KeyWord name="running" />
-		<KeyWord name="s-resize" />
+		<KeyWord name="row-gap" func="yes">
+			<Overload retVal="" descr="Sets the size of the gap (gutter) between an element's rows.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="s" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="saturate()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Super-saturates or desaturates the input image. Its result is a filter-function.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="saturation" />
+		<KeyWord name="scale" func="yes">
+			<Overload retVal="" descr="Allows you to specify scale transforms individually and independantly of the transform property. This maps better to typical user interface usage, and saves having to remember the exact order of transform functions to specify in the transform value.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="scale()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Defines a transformation that resizes an element on the 2D plane. Because the amount of scaling is defined by a vector, it can resize the horizontal and vertical dimensions at different scales. Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="scale-down" />
 		<KeyWord name="scale3d()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Defines a transformation that resizes an element in 3D space. Because the amount of scaling is defined by a vector, it can resize different dimensions at different scales. Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="scaleX()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Defines a transformation that resizes an element along the x-axis (horizontally). Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="scaleY()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Defines a transformation that resizes an element along the y-axis (vertically). Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="scaleZ()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Defines a transformation that resizes an element along the z-axis. Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="scan" />
-		<KeyWord name="scope" />
-		<KeyWord name="screen" />
-		<KeyWord name="scripting" />
-		<KeyWord name="scroll" />
-		<KeyWord name="scroll-behavior" />
-		<KeyWord name="scroll-padding" />
-		<KeyWord name="scroll-padding-block" />
-		<KeyWord name="scroll-padding-block-end" />
-		<KeyWord name="scroll-padding-block-start" />
-		<KeyWord name="scroll-padding-bottom" />
-		<KeyWord name="scroll-padding-inline" />
-		<KeyWord name="scroll-padding-inline-end" />
-		<KeyWord name="scroll-padding-inline-start" />
-		<KeyWord name="scroll-padding-left" />
-		<KeyWord name="scroll-padding-right" />
-		<KeyWord name="scroll-padding-top" />
-		<KeyWord name="scroll-position" />
-		<KeyWord name="scroll-snap-align" />
-		<KeyWord name="scroll-snap-coordinate" />
-		<KeyWord name="scroll-snap-destination" />
-		<KeyWord name="scroll-snap-margin" />
-		<KeyWord name="scroll-snap-margin-block" />
-		<KeyWord name="scroll-snap-margin-block-end" />
-		<KeyWord name="scroll-snap-margin-block-start" />
-		<KeyWord name="scroll-snap-margin-bottom" />
-		<KeyWord name="scroll-snap-margin-inline" />
-		<KeyWord name="scroll-snap-margin-inline-end" />
-		<KeyWord name="scroll-snap-margin-inline-start" />
-		<KeyWord name="scroll-snap-margin-left" />
-		<KeyWord name="scroll-snap-margin-right" />
-		<KeyWord name="scroll-snap-margin-top" />
-		<KeyWord name="scroll-snap-stop" />
-		<KeyWord name="scroll-snap-type" />
-		<KeyWord name="se-resize" />
-		<KeyWord name="selection" />
-		<KeyWord name="semi-condensed" />
-		<KeyWord name="semi-expanded" />
-		<KeyWord name="separate" />
+		<KeyWord name="scroll-behavior" func="yes">
+			<Overload retVal="" descr="Specifies the scrolling behavior for a scrolling box when scrolling is triggered by one of the navigation or CSSOM scrolling APIs.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="scroll-snap-type" func="yes">
+			<Overload retVal="" descr="Defines how strictly snap points are enforced on the scroll container in case there is one.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="sepia()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Converts the input image to sepia, giving it a warmer, more yellow/brown appearance. Its result is a filter-function.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="sesame" />
-		<KeyWord name="shape-image-threshold" />
-		<KeyWord name="shape-inside" />
-		<KeyWord name="shape-margin" />
-		<KeyWord name="shape-outside" />
-		<KeyWord name="show" />
-		<KeyWord name="sideways" />
-		<KeyWord name="sideways-left" />
-		<KeyWord name="sideways-right" />
-		<KeyWord name="size" />
+		<KeyWord name="shape-image-threshold" func="yes">
+			<Overload retVal="" descr="Defines the alpha channel threshold used to extract the shape using an image as the value for shape-outside.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="shape-margin" func="yes">
+			<Overload retVal="" descr="Specifies a margin for a CSS shape created using shape-outside.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="shape-outside" func="yes">
+			<Overload retVal="" descr="Defines a shape—which may be non-rectangular—around which adjacent inline content should wrap">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="skew()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Defines a transformation that skews an element on the 2D plane. Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="skewX()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Defines a transformation that skews an element in the horizontal direction on the 2D plane. Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="skewY()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Defines a transformation that skews an element in the vertical direction on the 2D plane. Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="slice" />
-		<KeyWord name="small" />
-		<KeyWord name="small-caps" />
-		<KeyWord name="smaller" />
-		<KeyWord name="smooth" />
-		<KeyWord name="snap" />
-		<KeyWord name="soft-light" />
-		<KeyWord name="solid" />
-		<KeyWord name="space" />
-		<KeyWord name="space-around" />
-		<KeyWord name="space-between" />
-		<KeyWord name="spaces" />
-		<KeyWord name="speak" />
-		<KeyWord name="speak-as" />
-		<KeyWord name="speak-header" />
-		<KeyWord name="speak-numeral" />
-		<KeyWord name="speak-punctuation" />
-		<KeyWord name="speech-rate" />
-		<KeyWord name="spelling-error" />
-		<KeyWord name="square" />
-		<KeyWord name="src" />
-		<KeyWord name="start" />
-		<KeyWord name="start end" />
-		<KeyWord name="static" />
-		<KeyWord name="step-end" />
-		<KeyWord name="step-start" />
+		<KeyWord name="speak-as" func="yes">
+			<Overload retVal="" descr="Specifies how a counter symbol constructed with a given @counter-style will be represented in the spoken form. For example, an author can specify a counter symbol to be either spoken as its numerical value or just represented with an audio cue.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="src" func="yes">
+			<Overload retVal="" descr="Of the @font-face rule specifies the resource containing font data. It is required for the @font-face rule to be valid.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="steps()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="sticky" />
-		<KeyWord name="stress" />
-		<KeyWord name="stretch" />
-		<KeyWord name="strict" />
-		<KeyWord name="string-set" />
-		<KeyWord name="stroke" />
-		<KeyWord name="stroke-alignment" />
-		<KeyWord name="stroke-box" />
-		<KeyWord name="stroke-dashadjust" />
-		<KeyWord name="stroke-dasharray" />
-		<KeyWord name="stroke-dashcorner" />
-		<KeyWord name="stroke-dashoffset" />
-		<KeyWord name="stroke-linecap" />
-		<KeyWord name="stroke-linejoin" />
-		<KeyWord name="stroke-miterlimit" />
-		<KeyWord name="stroke-opacity" />
-		<KeyWord name="stroke-width" />
-		<KeyWord name="style" />
 		<KeyWord name="styleset()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="stylistic()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="sub" />
-		<KeyWord name="suffix" />
-		<KeyWord name="super" />
-		<KeyWord name="supports" />
-		<KeyWord name="sw-resize" />
+		<KeyWord name="suffix" func="yes">
+			<Overload retVal="" descr="Of the @counter-style rule specifies content that will be appended to the marker representation. If not specified, the default value will be &quot;\2E\20&quot; (&quot;. &quot;, a full stop followed by a space).">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="swash()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="symbols" />
+		<KeyWord name="symbols" func="yes">
+			<Overload retVal="" descr="Is used to specify the symbols that the specified counter system will use to construct counter representations. A symbol can be a string, image, or identifier. It is used within the @counter-style at-rule.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="symbols()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Lets you define counter styles inline, directly as the value of a property such as list-style. Unlike @counter-style, symbols() is anonymous (i.e., it can only be used once). Although less powerful, it is shorter and easier to write than @counter-style.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="system" />
-		<KeyWord name="tab-size" />
-		<KeyWord name="table" />
-		<KeyWord name="table-caption" />
-		<KeyWord name="table-cell" />
-		<KeyWord name="table-column" />
-		<KeyWord name="table-column-group" />
-		<KeyWord name="table-footer-group" />
-		<KeyWord name="table-header-group" />
-		<KeyWord name="table-layout" />
-		<KeyWord name="table-row" />
-		<KeyWord name="table-row-group" />
-		<KeyWord name="target" />
-		<KeyWord name="text" />
-		<KeyWord name="text-align" />
-		<KeyWord name="text-align-last" />
-		<KeyWord name="text-bottom" />
-		<KeyWord name="text-combine-upright" />
-		<KeyWord name="text-decoration" />
-		<KeyWord name="text-decoration-color" />
-		<KeyWord name="text-decoration-line" />
-		<KeyWord name="text-decoration-skip" />
-		<KeyWord name="text-decoration-style" />
-		<KeyWord name="text-emphasis" />
-		<KeyWord name="text-emphasis-color" />
-		<KeyWord name="text-emphasis-position" />
-		<KeyWord name="text-emphasis-style" />
-		<KeyWord name="text-indent" />
-		<KeyWord name="text-justify" />
-		<KeyWord name="text-orientation" />
-		<KeyWord name="text-overflow" />
-		<KeyWord name="text-rendering" />
-		<KeyWord name="text-shadow" />
-		<KeyWord name="text-space-collapse" />
-		<KeyWord name="text-space-trim" />
-		<KeyWord name="text-spacing" />
-		<KeyWord name="text-top" />
-		<KeyWord name="text-transform" />
-		<KeyWord name="text-underline-position" />
-		<KeyWord name="text-wrap" />
-		<KeyWord name="thick" />
-		<KeyWord name="thin" />
-		<KeyWord name="titling-caps" />
-		<KeyWord name="top" />
-		<KeyWord name="top bottom" />
-		<KeyWord name="touch-action" />
-		<KeyWord name="transform" />
-		<KeyWord name="transform-box" />
-		<KeyWord name="transform-origin" />
-		<KeyWord name="transform-style" />
-		<KeyWord name="transition" />
-		<KeyWord name="transition-delay" />
-		<KeyWord name="transition-duration" />
-		<KeyWord name="transition-property" />
-		<KeyWord name="transition-timing-function" />
+		<KeyWord name="system" func="yes">
+			<Overload retVal="" descr="Specifies the algorithm to be used for converting the integer value of a counter to a string representation. It is used in a @counter-style to define the behavior of the defined style.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tab-size" func="yes">
+			<Overload retVal="" descr="Is used to customize the width of a tab (U+0009) character.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="table-layout" func="yes">
+			<Overload retVal="" descr="Specifies the algorithm used to lay out table cells, rows, and columns.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="target-counter()" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="target-counters()" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="target-text()" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text-align" func="yes">
+			<Overload retVal="" descr="Specifies the horizontal alignment of an inline or table-cell box.This means it works like vertical-align but in the horizontal direction.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text-align-last" func="yes">
+			<Overload retVal="" descr="Describes how the last line of a block or a line, right before a forced line break, is aligned.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text-combine-upright" func="yes">
+			<Overload retVal="" descr="Specifies the combination of multiple characters into the space of a single character. If the combined text is wider than 1em, the user agent must fit the contents within 1em. The resulting composition is treated as a single upright glyph for layout and decoration. This property only has an effect in vertical writing modes.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text-decoration" func="yes">
+			<Overload retVal="" descr="Sets the appearance of decorative lines on text. It is a shorthand for text-decoration-line, text-decoration-color, and text-decoration-style.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text-decoration-color" func="yes">
+			<Overload retVal="" descr="Sets the color of the decorative additions to text that are specified by text-decoration-line; these include underlines and overlines, strikethroughs, and wavy lines like those typically used to indicate content is misspelled (for example). The specified color applies to all such decorative lines in the scope of the property's value.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text-decoration-line" func="yes">
+			<Overload retVal="" descr="Sets the kind of decoration that is used on text in an element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text-decoration-style" func="yes">
+			<Overload retVal="" descr="Sets the style of the lines specified by text-decoration-line. The style applies to all lines that are specified; there is no way to define different styles for each of the lines defined by text-decoration-line.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text-emphasis" func="yes">
+			<Overload retVal="" descr="Is a shorthand property for setting text-emphasis-style and text-emphasis-color in one declaration. This property will apply the specified emphasis mark to each character of the element's text, except separator characters, like spaces,  and control characters.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text-emphasis-color" func="yes">
+			<Overload retVal="" descr="Defines the color used to draw emphasis marks on text being rendered in the HTML document. This value can also be set and reset using the text-emphasis shorthand.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text-emphasis-position" func="yes">
+			<Overload retVal="" descr="Sets where emphasis marks are drawn. Like ruby text, if there isn't enough room for emphasis marks, the line height is increased.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text-emphasis-style" func="yes">
+			<Overload retVal="" descr="Defines the type of emphasis used. It can also be set, and reset, using the text-emphasis shorthand.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text-indent" func="yes">
+			<Overload retVal="" descr="Specifies the amount of indentation (empty space) that is put before lines of text in a block. By default, this controls the indentation of only the first formatted line of the block, but the hanging and each-line keywords can be used to change this behavior.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text-justify" func="yes">
+			<Overload retVal="" descr="Defines what type of justification should be applied to text when it is justified (i.e., when text-align: justify; is set on it).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text-orientation" func="yes">
+			<Overload retVal="" descr="Defines the orientation of the text characters in a line. This property only has an effect in vertical mode, that is, when writing-mode is not horizontal-tb. It is useful for controlling the display of languages that use vertical script, and also for making vertical table headers.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text-overflow" func="yes">
+			<Overload retVal="" descr="Determines how overflowed content that is not displayed is signaled to users. It can be clipped, display an ellipsis, or display a custom string.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text-rendering" func="yes">
+			<Overload retVal="" descr="Provides information to the rendering engine about what to optimize for when rendering text.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text-shadow" func="yes">
+			<Overload retVal="" descr="Adds shadows to text. It accepts a comma-separated list of shadows to be applied to the text and any of its decorations.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text-transform" func="yes">
+			<Overload retVal="" descr="Specifies how to capitalize an element's text. It can be used to make text appear in all-uppercase or all-lowercase, or with each word capitalized.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="text-underline-position" func="yes">
+			<Overload retVal="" descr="Specifies the position of the underline which is set using the text-decoration property's underline value.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="top" func="yes">
+			<Overload retVal="" descr="Participates in specifying the vertical position of a positioned element. It has no effect on non-positioned elements.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="touch-action" func="yes">
+			<Overload retVal="" descr="Sets how a region can be manipulated by a touchscreen user (for example, by zooming features built into the browser).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="transform" func="yes">
+			<Overload retVal="" descr="Lets you rotate, scale, skew, or translate a given element. This is achieved by modifying the coordinate space of the CSS visual formatting model.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="transform-box" func="yes">
+			<Overload retVal="" descr="Defines the layout box to which the transform and transform-origin properties relate.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="transform-origin" func="yes">
+			<Overload retVal="" descr="Sets the origin for an element's transformations.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="transform-style" func="yes">
+			<Overload retVal="" descr="Determines if the children of an element are positioned in the 3D-space or are flattened in the plane of the element.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="transition" func="yes">
+			<Overload retVal="" descr="Is a shorthand property for transition-property, transition-duration, transition-timing-function, and transition-delay.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="transition-delay" func="yes">
+			<Overload retVal="" descr="Specifies the amount of time to wait before starting a property's transition effect when its value changes.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="transition-duration" func="yes">
+			<Overload retVal="" descr="Specifies the number of seconds or milliseconds a transition animation should take to complete. By default, the value is 0s, meaning that no animation will occur.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="transition-property" func="yes">
+			<Overload retVal="" descr="CSS property specifies the CSS properties to which a transition effect should be applied.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="transition-timing-function" func="yes">
+			<Overload retVal="" descr="CSS property is used to describe how the intermediate values of the CSS properties being affected by a transition effect are calculated.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="translate" func="yes">
+			<Overload retVal="" descr="Allows you to specify translation transforms individually and independantly of the transform property. This maps better to typical user interface usage, and saves having to remember the exact order of transform functions to specify in the transform value.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="translate()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Repositions an element in the horizontal and/or vertical directions. Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="translate3d()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Repositions an element in 3D space. Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="translateX()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Repositions an element horizontally on the 2D plane. Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="translateY()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Repositions an element vertically on the 2D plane. Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="translateZ()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Repositions an element along the z-axis in 3D space, i.e., closer to or farther away from the viewer. Its result is a transform-function data type.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="transparent" />
-		<KeyWord name="triangle" />
-		<KeyWord name="turn" />
-		<KeyWord name="ultra-condensed" />
-		<KeyWord name="ultra-expanded" />
-		<KeyWord name="under" />
-		<KeyWord name="underline" />
-		<KeyWord name="unicase" />
-		<KeyWord name="unicode-bidi" />
-		<KeyWord name="unicode-range" />
-		<KeyWord name="unset" />
-		<KeyWord name="update" />
-		<KeyWord name="upper-alpha" />
-		<KeyWord name="upper-latin" />
-		<KeyWord name="upper-roman" />
-		<KeyWord name="uppercase" />
-		<KeyWord name="upright" />
+		<KeyWord name="turn" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="unicode-bidi" func="yes">
+			<Overload retVal="" descr=", together with the direction property, determines how bidirectional text in a document is handled. For example, if a block of content contains both left-to-right and right-to-left text, the user-agent uses a complex Unicode algorithm to decide how to display the text. The unicode-bidi property overrides this algorithm and allows the developer to control the text embedding.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="unicode-range" func="yes">
+			<Overload retVal="" descr="Sets the specific range of characters to be used from a font defined by @font-face and made available for use on the current page. If the page doesn't use any character in this range, the font is not downloaded; if it uses at least one, the whole font is downloaded.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="unset" func="yes">
+			<Overload retVal="" descr="To its inherited value if it inherits from its parent, and to its initial value if not.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="url()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="use-glyph-orientation" />
-		<KeyWord name="user-error" />
-		<KeyWord name="user-select" />
-		<KeyWord name="user-zoom" />
-		<KeyWord name="valid" />
+		<KeyWord name="user-zoom" func="yes">
+			<Overload retVal="" descr="Controls whether or not the user can change the zoom factor of a document defined by @viewport.">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="var()" func="yes">
-			<Overload retVal="">
-				<Param name=""/>
+			<Overload retVal="" descr="Can be used to insert the value of a custom property (sometimes called a &quot;CSS variable&quot;) instead of any part of a value of another property.">
 			</Overload>
 		</KeyWord>
-		<KeyWord name="vertical" />
-		<KeyWord name="vertical-align" />
-		<KeyWord name="vertical-lr" />
-		<KeyWord name="vertical-rl" />
-		<KeyWord name="vertical-text" />
-		<KeyWord name="vh" />
-		<KeyWord name="view-box" />
-		<KeyWord name="viewport" />
-		<KeyWord name="visibility" />
-		<KeyWord name="visible" />
-		<KeyWord name="visited" />
-		<KeyWord name="vmax" />
-		<KeyWord name="vmin" />
-		<KeyWord name="voice-balance" />
-		<KeyWord name="voice-duration" />
-		<KeyWord name="voice-family" />
-		<KeyWord name="voice-pitch" />
-		<KeyWord name="voice-range" />
-		<KeyWord name="voice-rate" />
-		<KeyWord name="voice-stress" />
-		<KeyWord name="voice-volume" />
-		<KeyWord name="volume" />
-		<KeyWord name="vw" />
-		<KeyWord name="w-resize" />
-		<KeyWord name="wait" />
-		<KeyWord name="wavy" />
-		<KeyWord name="weight" />
-		<KeyWord name="white-space" />
-		<KeyWord name="widows" />
-		<KeyWord name="width" />
-		<KeyWord name="will-change" />
-		<KeyWord name="word-break" />
-		<KeyWord name="word-spacing" />
-		<KeyWord name="word-wrap" />
-		<KeyWord name="wrap" />
-		<KeyWord name="wrap-after" />
-		<KeyWord name="wrap-before" />
-		<KeyWord name="wrap-flow" />
-		<KeyWord name="wrap-inside" />
-		<KeyWord name="wrap-reverse" />
-		<KeyWord name="wrap-through" />
-		<KeyWord name="writing-mode" />
-		<KeyWord name="x-large" />
-		<KeyWord name="x-small" />
-		<KeyWord name="xx-large" />
-		<KeyWord name="xx-small" />
-		<KeyWord name="z-index" />
-		<KeyWord name="zoom-in" />
-		<KeyWord name="zoom-out" />
+		<KeyWord name="vertical-align" func="yes">
+			<Overload retVal="" descr="Specifies the vertical alignment of an inline or table-cell box.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="vh" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="visibility" func="yes">
+			<Overload retVal="" descr="Can show or hide an element without affecting the layout of a document (i.e., space is created for elements regardless of whether they are visible or not). The property can also hide rows or columns in a table.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="vmax" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="vmin" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="vw" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="white-space" func="yes">
+			<Overload retVal="" descr="Determines how white space inside an element is handled.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="widows" func="yes">
+			<Overload retVal="" descr="Specifies the minimum number of lines in a block container that must be shown at the top of a page, region, or column. This property is normally used to control how breaks occur.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="width" func="yes">
+			<Overload retVal="" descr="Is shorthand for setting both the min-width and the max-width of the viewport. By providing one viewport length value, that value will determine both the min-width and the max-width to the value provided.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="width" func="yes">
+			<Overload retVal="" descr="Specifies the width of an element. By default, the property defines the width of the content area. If box-sizing is set to border-box, however, it instead determines the width of the border area.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="will-change" func="yes">
+			<Overload retVal="" descr="Provides a way for authors to hint browsers about the kind of changes to be expected on an element, so that the browser can set up appropriate optimizations ahead of time before the element is actually changed.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="word-break" func="yes">
+			<Overload retVal="" descr="Sets whether line breaks appear wherever the text would otherwise overflow its content box.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="word-spacing" func="yes">
+			<Overload retVal="" descr="Specifies the spacing behavior between tags and words.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="word-wrap" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="writing-mode" func="yes">
+			<Overload retVal="" descr="Defines whether lines of text are laid out horizontally or vertically, as well as the direction in which blocks progress.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="x" func="yes">
+			<Overload retVal="" descr="">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="z-index" func="yes">
+			<Overload retVal="" descr="Specifies the z-order of a positioned element and its descendants or flex items (children of an element with display: flex). When elements overlap, z-order determines which one covers the other. An element with a larger z-index generally covers an element with a lower one.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="zoom" func="yes">
+			<Overload retVal="" descr="Sets the initial zoom factor of a document defined by the @viewport at-rule.">
+			</Overload>
+		</KeyWord>
 	</AutoComplete>
 </NotepadPlus>
