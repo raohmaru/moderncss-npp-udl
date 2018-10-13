@@ -14,7 +14,7 @@
 	}
 }
 
-.centered {
+B.centered {
 	@apply --centered;
 }
 
@@ -36,7 +36,7 @@
 :--heading { margin-top: 0 }
 
 /* colors stuff */
-a {
+a:root {
 	color: var(--highlightColor);
 	transition: color 1s; /* autoprefixed ! */
 	
@@ -49,11 +49,15 @@ a {
 h2 {
 	font-variant-caps: small-caps;
 	font-variant-numeric: lining-nums;
+	
+	& .nested {
+		border: solid 1px red;
+	}
 }
 
 /* filters */
 #blur {
-	filter: blur(4px);
+	filter: blur(4px) !important;
 }
 .sepia {
 	filter: sepia(.8);
