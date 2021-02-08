@@ -215,7 +215,7 @@
 			</Overload>
 		</KeyWord>
 		<KeyWord name="@annotation" func="yes">
-			<Overload retVal="" descr="">
+			<Overload retVal="" descr="Specifies a feature name that will work with the annotation() functional notation of font-variant-alternates.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="@bottom-center" func="yes">
@@ -223,7 +223,7 @@
 			</Overload>
 		</KeyWord>
 		<KeyWord name="@character-variant" func="yes">
-			<Overload retVal="" descr="">
+			<Overload retVal="" descr="Specifies a feature name that will work with the character-variant() functional notation of font-variant-alternates.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="@charset" func="yes">
@@ -279,11 +279,11 @@
 			</Overload>
 		</KeyWord>
 		<KeyWord name="@styleset" func="yes">
-			<Overload retVal="" descr="">
+			<Overload retVal="" descr="Specifies a feature name that will work with the styleset() functional notation of font-variant-alternates.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="@stylistic" func="yes">
-			<Overload retVal="" descr="">
+			<Overload retVal="" descr="Specifies a feature name that will work with the stylistic() functional notation of font-variant-alternates.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="@supports" func="yes">
@@ -291,7 +291,7 @@
 			</Overload>
 		</KeyWord>
 		<KeyWord name="@swash" func="yes">
-			<Overload retVal="" descr="">
+			<Overload retVal="" descr="Specifies a feature name that will work with the swash() functional notation of font-variant-alternates.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="@top-center" func="yes">
@@ -1351,7 +1351,7 @@
 			</Overload>
 		</KeyWord>
 		<KeyWord name="ornaments()" func="yes">
-			<Overload retVal="" descr="">
+			<Overload retVal="" descr="Specifies a feature name that will work with the ornaments() functional notation of font-variant-alternates.">
 			</Overload>
 		</KeyWord>
 		<KeyWord name="orphans" func="yes">
