@@ -1,0 +1,63 @@
+/* custom properties */
+:root {
+	--fontSize: 1rem;
+	--mainColor: #12345678;
+	--highlightColor: hwb(190, 35%, 20%);
+}
+
+/* @property at-rule */
+@property --logo-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #c0ffee;
+}
+
+/* custom media queries */
+@custom-media --viewport-medium (width <= 50rem);
+@media screen and (--viewport-medium) {
+	body {
+		font-size: calc(var(--fontSize) * 1.2);
+	}
+}
+
+/* some var() */
+* {
+	font-size: var(--fontSize);
+	color: var(--mainColor);
+	
+	&:hover {
+		/* fallback */
+		color: var(--highlightColor, #FFCC00) !important;
+	}
+}
+
+/* custom selectors */
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+:--heading { margin-top: 0 }
+
+/* selectors */
+span[id="id"],
+span#id,
+span.class,
+#id,
+.class,
+[frame=hsides i] {
+	border-style: solid none;
+}
+
+/* nesting, pseudo-selectors and descendants */
+#message[data-list-item-id^="chat-messages"] {
+	color: var(--CI_ViewReactions);
+	
+	path[d^="M16.32 14.72a1 1 0 0 1 0-1.4112.5"] {
+		color: var(--CI_CopyLinkOutside);
+	}
+	
+	& item:is(.odd)> [class^="buttonContainer_"] { 
+		color: var(--CI_ViewIcon_01);
+	}
+	
+	&.item:nth-child(1 of [id*="copy-id"]) > .iconContainer > .icon {
+		color: var(--CI_CopyMessageID_01);
+	}
+}

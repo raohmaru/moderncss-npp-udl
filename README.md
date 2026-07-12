@@ -19,7 +19,7 @@ Current browsers do not support yet all the modern CSS specifications, so you wi
 ### Usage
 Open a CSS file and enable the syntax highlight by selecting "Language > ModernCSS".
 
-(An example file ['test.pcss'](https://raw.githubusercontent.com/raohmaru/moderncss-npp-udl/master/test.pcss) is provided to test the syntax highlighting.)
+(An example file ['test.css'](https://raw.githubusercontent.com/raohmaru/moderncss-npp-udl/master/test.css) is provided to test the syntax highlighting.)
 
 ### Install Auto-completion File
 1. Close Notepad++.
