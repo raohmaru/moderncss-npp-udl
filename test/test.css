@@ -24,6 +24,7 @@
 * {
 	font-size: var(--fontSize);
 	color: var(--mainColor);
+	-webkit-font-smoothing: auto;
 	
 	&:hover {
 		/* fallback */
@@ -33,7 +34,10 @@
 
 /* custom selectors */
 @custom-selector :--heading h1, h2, h3, h4, h5, h6;
-:--heading { margin-top: 0 }
+:--heading {
+	margin-top: 0;
+	margin: initial;
+}
 
 /* selectors */
 span[id="id"],
@@ -41,19 +45,30 @@ span#id,
 span.class,
 #id,
 .class,
-[frame=hsides i] {
+[frame=hsides i]
+header:has(> ul#id.class)
+ns|h1 {
 	border-style: solid none;
 }
 
+/* functions */
+.title {
+	font-size: clamp(1rem, 2.5vw, 2rem);
+	
+	&::after {
+		content: attr(data-name);
+	}
+}
+
 /* nesting, pseudo-selectors and descendants */
-#message[data-list-item-id^="chat-messages"] {
+#message[data-list-item-id^='chat-messages'] {
 	color: var(--CI_ViewReactions);
 	
 	path[d^="M16.32 14.72a1 1 0 0 1 0-1.4112.5"] {
 		color: var(--CI_CopyLinkOutside);
 	}
 	
-	& item:is(.odd)> [class^="buttonContainer_"] { 
+	& .item:is(.odd)> [class^="buttonContainer_"] { 
 		color: var(--CI_ViewIcon_01);
 	}
 	
