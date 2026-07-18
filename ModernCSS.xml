@@ -2,7 +2,7 @@
     <UserLang name="ModernCSS" ext="css" udlVersion="2.1">
         <Settings>
             <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
-            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="yes" Keywords5="yes" Keywords6="yes" Keywords7="yes" Keywords8="yes" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="yes" Keywords5="no" Keywords6="yes" Keywords7="yes" Keywords8="yes" />
         </Settings>
         <KeywordLists>
             <Keywords name="Comments">00 01 02 03/* 04*/</Keywords>
@@ -24,13 +24,13 @@
             <Keywords name="Folders in comment, open">/*</Keywords>
             <Keywords name="Folders in comment, middle"></Keywords>
             <Keywords name="Folders in comment, close">*/</Keywords>
-            <Keywords name="Keywords1">fit-content inherit initial max-content min-content revert revert-layer revert-rule unset true false auto all</Keywords>
+            <Keywords name="Keywords1">fit-content inherit initial max-content min-content revert revert-layer revert-rule unset true false auto all !important</Keywords>
             <Keywords name="Keywords2">active any-link autofill buffering checked default defined dir disabled empty enabled first-child first-of-type focus focus-visible focus-within fullscreen future has hover in-range indeterminate interest-source interest-target invalid is lang last-child last-of-type link matches modal muted not nth-child nth-of-type nth-last-child nth-last-of-type only-child only-of-type open optional out-of-range past paused picture-in-picture placeholder-shown playing popover-open read-only read-write required root scope seeking stalled target user-invalid user-valid valid visited volume-locked where state xr-overlay host host host-context has-slotted slotted scroll-button scroll-marker scroll-marker-group target-current column left right first blank after before file-selector-button first-letter first-line grammar-error marker placeholder selection spelling-error target-text part backdrop cue</Keywords>
-            <Keywords name="Keywords3">html base head link meta base link script style title style title body address article aside footer header h1 h2 h3 h4 h5 h6 hgroup main nav section search blockquote cite dd dt dl div dl dt dd dt dl dd dd figcaption figure figure figcaption hr li ol ul menu menu ul ul li ol p pre ul a abbr b strong bdi bdo br cite code data dfn p dt dd em i kbd mark q blockquote rp ruby rt rt ruby ruby s del ins samp small span strong sub sup time u var wbr area audio img map area track video embed fencedframe iframe object picture source img source svg math canvas noscript script del ins caption col colgroup colgroup colgroup table tbody tr td tr tfoot tr th tr thead tr th tr td th button datalist option fieldset label form input label legend fieldset meter optgroup select option select optgroup datalist output progress select selectedcontent textarea details summary dialog geolocation summary details slot template acronym big center slot slot dir ul font frame frameset frameset frame img marquee nobr noembed object noframes frame param object plaintext rb rtc rb ruby rb rt rtc slot strike tt xmp</Keywords>
-            <Keywords name="Keywords4">abs acos alpha anchor-size anchor asin atan atan2 attr blur brightness calc-size calc circle clamp color-mix conic-gradient contrast-color contrast cos counter counters cross-fade cubic-bezier device-cmyk drop-shadow dynamic-range-limit-mix element ellipse env exp fit-content grayscale hsl hue-rotate hwb hypot if image-set image inset invert lab lch light-dark linear-gradient linear log matrix matrix3d max min minmax mod oklab oklch opacity paint path perspective polygon pow progress radial-gradient random ray rect rem repeat repeating-conic-gradient repeating-linear-gradient repeating-radial-gradient rgb rotate rotate3d rotateX rotateY rotateZ round saturate scale scale3d scaleX scaleY scaleZ sepia shape sibling-count sibling-index sign sin skew skewX skewY sqrt steps superellipse symbols tan translate translate3d translateX translateY translateZ type url var xywh</Keywords>
-            <Keywords name="Keywords5">. #</Keywords>
-            <Keywords name="Keywords6">@</Keywords>
-            <Keywords name="Keywords7">!</Keywords>
+            <Keywords name="Keywords3">html base head link meta base link script style title style title body address article aside footer header h1 h2 h3 h4 h5 h6 hgroup main nav section search blockquote cite dd dt dl div dl dt dd dt dl dd dd figcaption figure figure figcaption hr li ol ul menu menu ul ul li ol p pre ul a abbr b strong bdi bdo br cite code data dfn p dt dd em i kbd mark q blockquote rp ruby rt rt ruby ruby s del ins samp small span strong sub sup time u wbr area audio img map area track video embed fencedframe iframe object picture source img source svg math canvas noscript script del ins caption col colgroup colgroup colgroup table tbody tr td tr tfoot tr th tr thead tr th tr td th button datalist option fieldset label form input label legend fieldset meter optgroup select option select optgroup datalist output progress select selectedcontent textarea details summary dialog geolocation summary details slot template acronym big center slot slot dir ul font frame frameset frameset frame img marquee nobr noembed object noframes frame param object plaintext rb rtc rb ruby rb rt rtc slot strike tt xmp</Keywords>
+            <Keywords name="Keywords4">html. base. head. link. meta. base. link. script. style. title. style. title. body. address. article. aside. footer. header. h1. h2. h3. h4. h5. h6. hgroup. main. nav. section. search. blockquote. cite. dd. dt. dl. div. dl. dt. dd. dt. dl. dd. dd. figcaption. figure. figure. figcaption. hr. li. ol. ul. menu. menu. ul. ul. li. ol. p. pre. ul. a. abbr. b. strong. bdi. bdo. br. cite. code. data. dfn. p. dt. dd. em. i. kbd. mark. q. blockquote. rp. ruby. rt. rt. ruby. ruby. s. del. ins. samp. small. span. strong. sub. sup. time. u. wbr. area. audio. img. map. area. track. video. embed. fencedframe. iframe. object. picture. source. img. source. svg. math. canvas. noscript. script. del. ins. caption. col. colgroup. colgroup. colgroup. table. tbody. tr. td. tr. tfoot. tr. th. tr. thead. tr. th. tr. td. th. button. datalist. option. fieldset. label. form. input. label. legend. fieldset. meter. optgroup. select. option. select. optgroup. datalist. output. progress. select. selectedcontent. textarea. details. summary. dialog. geolocation. summary. details. slot. template. acronym. big. center. slot. slot. dir. ul. font. frame. frameset. frameset. frame. img. marquee. nobr. noembed. object. noframes. frame. param. object. plaintext. rb. rtc. rb. ruby. rb. rt. rtc. slot. strike. tt. xmp. html# base# head# link# meta# base# link# script# style# title# style# title# body# address# article# aside# footer# header# h1# h2# h3# h4# h5# h6# hgroup# main# nav# section# search# blockquote# cite# dd# dt# dl# div# dl# dt# dd# dt# dl# dd# dd# figcaption# figure# figure# figcaption# hr# li# ol# ul# menu# menu# ul# ul# li# ol# p# pre# ul# a# abbr# b# strong# bdi# bdo# br# cite# code# data# dfn# p# dt# dd# em# i# kbd# mark# q# blockquote# rp# ruby# rt# rt# ruby# ruby# s# del# ins# samp# small# span# strong# sub# sup# time# u# wbr# area# audio# img# map# area# track# video# embed# fencedframe# iframe# object# picture# source# img# source# svg# math# canvas# noscript# script# del# ins# caption# col# colgroup# colgroup# colgroup# table# tbody# tr# td# tr# tfoot# tr# th# tr# thead# tr# th# tr# td# th# button# datalist# option# fieldset# label# form# input# label# legend# fieldset# meter# optgroup# select# option# select# optgroup# datalist# output# progress# select# selectedcontent# textarea# details# summary# dialog# geolocation# summary# details# slot# template# acronym# big# center# slot# slot# dir# ul# font# frame# frameset# frameset# frame# img# marquee# nobr# noembed# object# noframes# frame# param# object# plaintext# rb# rtc# rb# ruby# rb# rt# rtc# slot# strike# tt# xmp# </Keywords>
+            <Keywords name="Keywords5">abs acos alpha anchor-size anchor asin atan atan2 attr blur brightness calc-size calc circle clamp color-mix conic-gradient contrast-color contrast cos counter counters cross-fade cubic-bezier device-cmyk drop-shadow dynamic-range-limit-mix element ellipse env exp fit-content grayscale hsl hue-rotate hwb hypot if image-set image inset invert lab lch light-dark linear-gradient linear log matrix matrix3d max min minmax mod oklab oklch opacity paint path perspective polygon pow progress radial-gradient random ray rect rem repeat repeating-conic-gradient repeating-linear-gradient repeating-radial-gradient rgb rotate rotate3d rotateX rotateY rotateZ round saturate scale scale3d scaleX scaleY scaleZ sepia shape sibling-count sibling-index sign sin skew skewX skewY sqrt steps superellipse symbols tan translate translate3d translateX translateY translateZ type url var xywh</Keywords>
+            <Keywords name="Keywords6">. #</Keywords>
+            <Keywords name="Keywords7">@</Keywords>
             <Keywords name="Keywords8">--</Keywords>
             <Keywords name="Delimiters">00&apos; 01 02&apos; 03&quot; 04 05&quot; 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
         </KeywordLists>
@@ -65,22 +65,21 @@
             <!-- "" double quote -->
             <WordsStyle name="DELIMITERS2" fgColor="d1a555" bgColor="3F3F3F" fontStyle="0" nesting="0" />
             <!-- [] brackets -->
-            <WordsStyle name="DELIMITERS4" fgColor="56B6C2" bgColor="3F3F3F" fontStyle="0" nesting="0" />
-            
+            <WordsStyle name="DELIMITERS4" fgColor="FF80BC" bgColor="3F3F3F" fontStyle="0" nesting="0" />
             <!-- keywords -->
             <WordsStyle name="KEYWORDS1" fgColor="56B6C2" bgColor="3F3F3F" fontStyle="0" nesting="0" />
             <!-- pseudo::classes -->
             <WordsStyle name="KEYWORDS2" fgColor="9AC57B" bgColor="3F3F3F" fontStyle="0" nesting="0" />
             <!-- type[selectors] -->
             <WordsStyle name="KEYWORDS3" fgColor="9AC57B" bgColor="3F3F3F" fontStyle="0" nesting="0" />
+            <!-- type[selectors]#id, type[selectors]#class -->
+            <WordsStyle name="KEYWORDS4" fgColor="9AC57B" bgColor="3F3F3F" fontStyle="0" nesting="0" />
             <!-- functions() -->
-            <WordsStyle name="KEYWORDS4" fgColor="E46972" bgColor="3F3F3F" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="008c69" bgColor="3F3F3F" fontStyle="0" nesting="0" />
             <!-- .class-selectors, #id-selectors -->
-            <WordsStyle name="KEYWORDS5" fgColor="E46972" bgColor="3F3F3F" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="E46972" bgColor="3F3F3F" fontStyle="0" nesting="0" />
             <!-- @at_rules -->
-            <WordsStyle name="KEYWORDS6" fgColor="9AC57B" bgColor="3F3F3F" fontStyle="0" nesting="0" />
-            <!-- !important -->
-            <WordsStyle name="KEYWORDS7" fgColor="DB9459" bgColor="3F3F3F" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="9AC57B" bgColor="3F3F3F" fontStyle="1" nesting="0" />
             <!-- var(\-\-variables) -->
             <WordsStyle name="KEYWORDS8" fgColor="C678DD" bgColor="3F3F3F" fontStyle="0" nesting="0" />
             

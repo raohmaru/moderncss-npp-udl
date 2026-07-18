@@ -5,20 +5,21 @@
 	--highlightColor: hwb(190, 35%, 20%);
 }
 
-/* @property at-rule */
+/* @at-rule */
 @property --logo-color {
   syntax: "<color>";
   inherits: false;
   initial-value: #c0ffee;
 }
 
-/* custom media queries */
 @custom-media --viewport-medium (width <= 50rem);
 @media screen and (--viewport-medium) {
 	body {
 		font-size: calc(var(--fontSize) * 1.2);
 	}
 }
+
+@layer layout, theme, modules;
 
 /* some var() */
 * {
